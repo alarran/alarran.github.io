@@ -8,7 +8,6 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
 title                    : "Ana Larrañaga Janeiro"
 title_separator          : "-"
 name                     : &name "Ana Larrañaga"
