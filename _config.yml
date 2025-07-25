@@ -26,10 +26,10 @@ author:
   name             : "Ana Larrañaga"
   pronouns         : # example: "she/her"  
   bio              : "Data-driven modeling and control of complex systems, particularly multiscale and multiphysics systems, using physics-constrained machine learning"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Seattle (WA, USA)"
+  employer         : "University of Washington"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "alarra@uw.edu" 
 
   # Academic websites
   academia         : # URL
