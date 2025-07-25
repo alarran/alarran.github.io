@@ -1,14 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "On the machine learning-assisted identification of the fundamental parameters of nonstandard microfin arrays to assess their heat transfer performance"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2024-11-01
+venue: 'Engineering Applications of Artificial Intelligence'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S0952197624011035'
+citation: 'A. Larrañaga, R.D. Sandberg, J. Mart´ınez, and J. Porteiro. On the machine learning-assisted identification of the fundamental parameters of nonstandard microfin arrays to assess their heat transfer performance. Engineering Applications of Artificial Intelligence, 136:108945, 2024.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+Microfin design for industrial applications has been extensively studied in the past, but the use of innovative techniques that can reveal hitherto unfamiliar morphologies realizable with novel additive manufacturing techniques has not yet been fully exploited. Here, an attempt is made to develop a structured methodology for the assessment of various randomly generated geometries, with the purpose of identifying the most significant geometrical parameters for their thermohydraulic performance. To do so, a computational fluid dynamics (CFD) database consisting of nearly 16,000 geometrical configurations was used, and various feature extraction algorithms were analyzed and compared from a classical, mechanistic perspective, within a structured framework called data interconnectivity and correlation for explainability, or DICE for short. The input parametric search space of geometries is composed of 15 features that represent the coordinates of the vertices of the microfin and the periodic separation between them. Based on data-driven models trained with heat flux and total drag as separate targets, a reduction to just three crucial geometrical parameters is achieved. The physical reasons behind this reduced set of key parameters are discussed. In addition, based on gene expression programming, two mathematical expressions were produced that, with only six of the inputs, are able to model the performance of the parameterized microfin array with a relative error of 13.82% for the heat flux and 3.40% for the total drag. Ultimately, this study successfully addresses the challenge of managing complex, high-dimensional feature spaces through a comprehensive analysis of explainability.
