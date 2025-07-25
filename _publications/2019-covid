@@ -1,0 +1,25 @@
+---
+title: "Assessment of the Effective Sensitivity of SARS-CoV-2 Sample Pooling Based on a Large-Scale Screening Experience: Retrospective Analysis"
+collection: publications
+category: manuscripts
+excerpt: ' '
+date: 2024-09-01
+venue: 'Journal 1'
+paperurl: 'https://publichealth.jmir.org/2024/1/e54503/'
+citation: 'Jorge J Cabrera Alvargonzalez, Ana Larrañaga, Javier Martinez, Sonia Perez Castro, Sonia Rey Cao, Carlos Daviña Nuñez, Victor Del Campo Perez, Carmen Duran Parrondo, Silvia Suarez Luque, Elena Gonzalez Alonso, Alfredo Jose Silva Tojo, Jacobo Porteiro, and Benito Regueiro. Assessment of the effective sensitivity of sars-cov-2 sample pooling based on a large-scale screening experience: Retrospective analysis. JMIR Public Health Surveill, 10:e54503, Sep 2024'
+---
+
+Background:
+The development of new large-scale saliva pooling detection strategies can significantly enhance testing capacity and frequency for asymptomatic individuals, which is crucial for containing SARS-CoV-2.
+
+Objective:
+This study aims to implement and scale-up a SARS-CoV-2 screening method using pooled saliva samples to control the virus in critical areas and assess its effectiveness in detecting asymptomatic infections.
+
+Methods:
+Between August 2020 and February 2022, our laboratory received a total of 928,357 samples. Participants collected at least 1 mL of saliva using a self-sampling kit and registered their samples via a smartphone app. All samples were directly processed using AutoMate 2550 for preanalytical steps and then transferred to Microlab STAR, managed with the HAMILTON Pooling software for pooling. The standard pool preset size was 20 samples but was adjusted to 5 when the prevalence exceeded 2% in any group. Real-time polymerase chain reaction (RT-PCR) was conducted using the Allplex SARS-CoV-2 Assay until July 2021, followed by the Allplex SARS-CoV-2 FluA/FluB/RSV assay for the remainder of the study period.
+
+Results:
+Of the 928,357 samples received, 887,926 (95.64%) were fully processed into 56,126 pools. Of these pools, 4863 tested positive, detecting 5720 asymptomatic infections. This allowed for a comprehensive analysis of pooling’s impact on RT-PCR sensitivity and false-negative rate (FNR), including data on positive samples per pool (PPP). We defined Ctref as the minimum cycle threshold (Ct) of each data set from a sample or pool and compared these Ctref results from pooled samples with those of the individual tests (ΔCtP). We then examined their deviation from the expected offset due to dilution [ΔΔCtP = ΔCtP – log2]. In this work, the ΔCtP and ΔΔCtP were 2.23 versus 3.33 and –0.89 versus 0.23, respectively, comparing global results with results for pools with 1 positive sample per pool. Therefore, depending on the number of genes used in the test and the size of the pool, we can evaluate the FNR and effective sensitivity (1 – FNR) of the test configuration. In our scenario, with a maximum of 20 samples per pool and 3 target genes, statistical observations indicated an effective sensitivity exceeding 99%. From an economic perspective, the focus is on pooling efficiency, measured by the effective number of persons that can be tested with 1 test, referred to as persons per test (PPT). In this study, the global PPT was 8.66, reflecting savings of over 20 million euros (US $22 million) based on our reagent prices.
+
+Conclusions:
+Our results demonstrate that, as expected, pooling reduces the sensitivity of RT-PCR. However, with the appropriate pool size and the use of multiple target genes, effective sensitivity can remain above 99%. Saliva pooling may be a valuable tool for screening and surveillance in asymptomatic individuals and can aid in controlling SARS-CoV-2 transmission. Further studies are needed to assess the effectiveness of these strategies for SARS-CoV-2 and their application to other microorganisms or biomarkers detected by PCR.
