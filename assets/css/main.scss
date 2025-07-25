@@ -40,3 +40,19 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  a {
+    color: #1a0dab !important;
+  }
+
+  header, footer, nav, section, article, aside, div {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
