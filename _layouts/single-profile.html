@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<nav class="profile-nav-compact">
+  <a href="{{ base_path }}/"{% if page.url == "/" %} class="active"{% endif %}>About</a>
+  <a href="{{ base_path }}/publications/"{% if page.url contains "/publications" %} class="active"{% endif %}>Publications</a>
+  <a href="{{ base_path }}/teaching/"{% if page.url contains "/teaching" %} class="active"{% endif %}>Teaching</a>
+  <a href="{{ base_path }}/talks/"{% if page.url contains "/talks" %} class="active"{% endif %}>Talks</a>
+</nav>
+
+<div class="single-profile-wrap">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      <header>
+        {% if page.title %}
+          <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+        {% endif %}
+
+        {% if page.collection == 'teaching' %}
+          <p class="single-meta">{{ page.type }}, <em>{{ page.venue }}</em>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        {% elsif page.venue and page.date %}
+          <p class="single-meta">Published in <em>{{ page.venue }}</em>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        {% elsif page.date %}
+          <p class="single-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
+      </header>
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+
+        {% if page.citation and page.paperurl %}
+          <p class="single-citation">{{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+        {% elsif page.citation %}
+          <p class="single-citation">{{ page.citation }}</p>
+        {% endif %}
+      </section>
+    </div>
+  </article>
+</div>
