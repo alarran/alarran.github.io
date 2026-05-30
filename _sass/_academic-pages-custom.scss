@@ -453,6 +453,123 @@ a:hover {
   margin: 0 0 1.5rem;
 }
 
+/* ─── Talks page ─────────────────────────────────────────────── */
+
+.talk-list {
+  list-style: none;
+  counter-reset: talk-counter;
+  padding: 0;
+  margin: 0;
+}
+
+.talk-list li {
+  counter-increment: talk-counter;
+  position: relative;
+  padding: 1.25rem 0 1.25rem 2.25rem;
+  border-bottom: 0.5px solid #ebebeb;
+}
+
+.talk-list li:last-child {
+  border-bottom: none;
+}
+
+.talk-list li::before {
+  content: counter(talk-counter);
+  position: absolute;
+  left: 0;
+  top: 1.35rem;
+  font-family: 'DM Serif Display', serif;
+  font-size: 13px;
+  color: #ccc;
+  font-weight: 400;
+  min-width: 1.5rem;
+}
+
+.talk-venue {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 0.1rem;
+}
+
+.talk-date {
+  display: inline-block;
+  font-size: 11px;
+  color: #bbb;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 0.3rem;
+}
+
+.talk-title {
+  font-size: 14.5px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin: 0.2rem 0 0.35rem;
+  line-height: 1.5;
+}
+
+.talk-title a {
+  color: #1a1a1a;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.talk-title a:hover {
+  border-bottom-color: #1a1a1a;
+}
+
+.talk-type {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 300;
+  font-style: italic;
+  color: #aaa;
+  letter-spacing: 0.02em;
+}
+
+/* ─── Teaching page ──────────────────────────────────────────── */
+
+.teaching-block {
+  margin-bottom: 2.5rem;
+}
+
+.teaching-term {
+  font-size: 12px;
+  font-weight: 400;
+  color: #888;
+  font-style: italic;
+  margin: 1.25rem 0 0.3rem;
+}
+
+.teaching-block .teaching-term:first-child {
+  margin-top: 0.5rem;
+}
+
+.course-list {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.course-list li {
+  font-size: 14px;
+  color: #2a2a2a;
+  line-height: 1.6;
+  margin-bottom: 0.15rem;
+}
+
+.course-list li strong {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.course-hours {
+  font-size: 12px;
+  color: #aaa;
+  font-weight: 300;
+}
+
 /* ─── Responsive ─────────────────────────────────────────────── */
 
 @media (max-width: 680px) {
