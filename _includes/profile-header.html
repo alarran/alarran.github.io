@@ -1,0 +1,32 @@
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+{% assign name_parts = author.name | split: ' ' %}
+{% assign first_initial = name_parts[0] | slice: 0 | upcase %}
+{% assign last_initial = name_parts.last | slice: 0 | upcase %}
+
+<header class="profile-hero">
+  <div class="profile-avatar">
+    {% if author.avatar %}
+      <img src="{{ base_path }}/images/{{ author.avatar }}" alt="{{ author.name }}" />
+    {% else %}
+      <div class="profile-initials">{{ first_initial }}{{ last_initial }}</div>
+    {% endif %}
+  </div>
+  <div class="profile-hero__info">
+    <h1 class="profile-name">{{ author.name }}</h1>
+    {% if author.position %}<p class="profile-position">{{ author.position }}</p>{% endif %}
+    <div class="profile-links">
+      {% if author.googlescholar %}<a href="{{ author.googlescholar }}">Google Scholar</a>{% endif %}
+      {% if author.orcid %}<a href="{{ author.orcid }}">ORCID</a>{% endif %}
+      {% if author.researchgate %}<a href="{{ author.researchgate }}">ResearchGate</a>{% endif %}
+      <a href="{{ base_path }}/cv/">CV</a>
+      {% if author.email %}<a href="mailto:{{ author.email }}">Email</a>{% endif %}
+    </div>
+  </div>
+</header>
