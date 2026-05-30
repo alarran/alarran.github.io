@@ -21,6 +21,14 @@
       <p class="profile-position">{{ author.position }}</p>
     {% endif %}
 
+    {% if author.research_interests %}
+      <ul class="profile-interests">
+        {% for interest in author.research_interests %}
+          <li>{{ interest }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <div class="profile-links">
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar ai-fw"></i></a>

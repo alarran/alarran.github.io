@@ -7,6 +7,7 @@ body {
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   color: #2a2a2a;
+  background-color: #edf4fb;
 }
 
 h1, h2, h3, h4 {
@@ -327,7 +328,7 @@ a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.86);
+  background: rgba(220, 238, 255, 0.88);
 }
 
 .profile-hero__inner {
@@ -344,8 +345,8 @@ a:hover {
 }
 
 .profile-avatar-sm {
-  width: 48px;
-  height: 48px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   object-fit: cover;
   border: 0.5px solid rgba(0, 0, 0, 0.12);
@@ -371,6 +372,30 @@ a:hover {
   color: #888;
   font-weight: 300;
   margin: 0 0 0.85rem;
+}
+
+/* Research interests */
+.profile-interests {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1rem;
+}
+
+.profile-interests li {
+  font-size: 12px;
+  font-weight: 300;
+  color: #4a6a88;
+  line-height: 1.55;
+  padding-left: 0.9rem;
+  position: relative;
+  margin-bottom: 0.1rem;
+}
+
+.profile-interests li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: #8aaecc;
 }
 
 /* Icon-only social links */
