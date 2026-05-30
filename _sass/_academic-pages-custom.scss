@@ -241,8 +241,8 @@ a:hover {
 /* ─── Footer ─────────────────────────────────────────────────── */
 
 .page__footer {
-  background: #fff;
-  border-top: 0.5px solid #e8e8e8;
+  background: #edf4fb;
+  border-top: 0.5px solid #d0e4f0;
   padding: 2rem 0;
 }
 
@@ -383,19 +383,20 @@ a:hover {
 
 .profile-interests li {
   font-size: 12px;
-  font-weight: 300;
-  color: #4a6a88;
+  font-weight: 400;
+  color: #1a1a1a;
   line-height: 1.55;
-  padding-left: 0.9rem;
+  padding-left: 1rem;
   position: relative;
   margin-bottom: 0.1rem;
 }
 
 .profile-interests li::before {
-  content: '·';
+  content: '•';
   position: absolute;
   left: 0;
-  color: #8aaecc;
+  color: #3a7abf;
+  font-size: 11px;
 }
 
 /* Icon-only social links */
