@@ -7,7 +7,7 @@ body {
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   color: #2a2a2a;
-  background-color: #edf4fb;
+  background-color: #fdf3ea;
 }
 
 h1, h2, h3, h4 {
@@ -171,13 +171,13 @@ a:hover {
 /* ─── Publication list ───────────────────────────────────────── */
 
 .list__item {
-  border-top: 0.5px solid #ebebeb;
+  border-top: 0.5px solid #f0d8c0;
   padding: 0.6rem 0;
   margin: 0 !important;
 }
 
 .list__item:last-child {
-  border-bottom: 0.5px solid #ebebeb;
+  border-bottom: 0.5px solid #f0d8c0;
 }
 
 .list__item .archive__item-title {
@@ -241,8 +241,8 @@ a:hover {
 /* ─── Footer ─────────────────────────────────────────────────── */
 
 .page__footer {
-  background: #edf4fb;
-  border-top: 0.5px solid #d0e4f0;
+  background: #fdf3ea;
+  border-top: 0.5px solid #e8c8a0;
   padding: 2rem 0;
 }
 
@@ -327,7 +327,7 @@ a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(220, 238, 255, 0.88);
+  background: rgba(238, 182, 115, 0.80);
 }
 
 .profile-hero__inner {
@@ -400,7 +400,7 @@ a:hover {
   content: '•';
   position: absolute;
   left: 0;
-  color: #3a7abf;
+  color: #c07840;
   font-size: 11px;
 }
 
@@ -428,7 +428,7 @@ a:hover {
 
 .profile-tabs {
   display: flex;
-  border-bottom: 0.5px solid #e8e8e8;
+  border-bottom: 0.5px solid #e8c8a0;
   margin: 0.9rem 0 1.25rem;
 }
 
@@ -498,7 +498,7 @@ a:hover {
   counter-increment: talk-counter;
   position: relative;
   padding: 0.6rem 0 0.6rem 1.75rem;
-  border-bottom: 0.5px solid #ebebeb;
+  border-bottom: 0.5px solid #f0d8c0;
 }
 
 .talk-list li:last-child {
