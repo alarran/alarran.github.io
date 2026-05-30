@@ -3,11 +3,11 @@
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
-  color: #2a2a2a;
-  background-color: #fdf3ea;
+  color: #1a1a1a;
+  background-color: #9BA3D2;
 }
 
 h1, h2, h3, h4 {
@@ -19,25 +19,25 @@ h1, h2, h3, h4 {
 
 p {
   font-weight: 300;
-  color: #3a3a3a;
+  color: #1a1a1a;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 0.5px solid #bbb;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
   transition: border-color 0.15s ease;
 }
 
 a:hover {
-  border-color: #2a2a2a;
+  border-color: #1a1a1a;
 }
 
 /* ─── Masthead / top navigation ──────────────────────────────── */
 
 .masthead {
-  border-bottom: 0.5px solid #e0e0e0;
-  background: #fff;
+  border-bottom: 0.5px solid #6D6E8B;
+  background: #9BA3D2;
   padding: 0.75rem 0;
 }
 
@@ -50,12 +50,12 @@ a:hover {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: -0.01em;
-  color: #2a2a2a;
+  color: #F6EDD2;
   border-bottom: none;
 }
 
 .site-title:hover {
-  color: #555;
+  color: #fff;
   border-bottom: none;
 }
 
@@ -64,11 +64,11 @@ a:hover {
 }
 
 .greedy-nav a {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #888;
+  color: #F6EDD2;
   border-bottom: none;
   padding: 0.5rem 0.75rem;
   transition: color 0.15s ease;
@@ -76,7 +76,7 @@ a:hover {
 
 .greedy-nav a:hover,
 .greedy-nav a.active {
-  color: #2a2a2a;
+  color: #fff;
   border-bottom: none;
 }
 
@@ -92,7 +92,7 @@ a:hover {
 
 .author__avatar img {
   border-radius: 50%;
-  border: 0.5px solid #e0e0e0;
+  border: 0.5px solid #6D6E8B;
   max-width: 110px;
 }
 
@@ -105,52 +105,52 @@ a:hover {
 }
 
 .author__bio {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
-  color: #666;
+  color: #1a1a1a;
   line-height: 1.6;
 }
 
 .author__urls li {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
 }
 
 .author__urls a {
-  color: #666;
+  color: #1a1a1a;
   border-bottom: 0.5px solid transparent;
 }
 
 .author__urls a:hover {
-  color: #2a2a2a;
-  border-bottom-color: #bbb;
+  color: #000;
+  border-bottom-color: #1a1a1a;
 }
 
 .author__urls .fas,
 .author__urls .fab,
 .author__urls .far,
 .author__urls .ai {
-  color: #aaa;
-  font-size: 11px;
+  color: #555;
+  font-size: 12px;
 }
 
 /* ─── Page content ───────────────────────────────────────────── */
 
 .page__content {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1.8;
 }
 
 .page__content h1 { font-size: 18px; margin-bottom: 0.5rem; }
-.page__content h2 { font-size: 13px; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+.page__content h2 { font-size: 14px; margin-top: 2.5rem; margin-bottom: 0.75rem; }
 .page__content h3 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 11px;
-  color: #999;
+  font-size: 12px;
+  color: #555;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
@@ -158,31 +158,31 @@ a:hover {
 .page__content p em {
   font-family: 'DM Serif Display', serif;
   font-style: italic;
-  font-size: 13px;
-  color: #2a2a2a;
+  font-size: 14px;
+  color: #1a1a1a;
 }
 
 .page__content hr {
   border: none;
-  border-top: 0.5px solid #e8e8e8;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.15);
   margin: 2rem 0;
 }
 
 /* ─── Publication list ───────────────────────────────────────── */
 
 .list__item {
-  border-top: 0.5px solid #f0d8c0;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.15);
   padding: 0.6rem 0;
   margin: 0 !important;
 }
 
 .list__item:last-child {
-  border-bottom: 0.5px solid #f0d8c0;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
 }
 
 .list__item .archive__item-title {
   font-family: 'DM Sans', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   margin: 0 0 4px;
   line-height: 1.4;
@@ -190,17 +190,17 @@ a:hover {
 
 .list__item .archive__item-title a {
   border-bottom: none;
-  color: #2a2a2a;
+  color: #1a1a1a;
 }
 
 .list__item .archive__item-title a:hover {
-  color: #555;
+  color: #000;
 }
 
 .list__item .archive__item-excerpt {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 300;
-  color: #888;
+  color: #444;
   margin: 0;
   font-style: italic;
 }
@@ -209,57 +209,57 @@ a:hover {
 
 .btn {
   font-family: 'DM Sans', sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding: 5px 14px;
   border-radius: 0;
   background: transparent;
-  border: 0.5px solid #bbb;
-  color: #555;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  color: #1a1a1a;
   transition: all 0.15s ease;
 }
 
 .btn:hover {
-  background: #2a2a2a;
-  border-color: #2a2a2a;
-  color: #fff;
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #F6EDD2;
 }
 
 .btn--inverse {
-  background: #2a2a2a;
-  border-color: #2a2a2a;
-  color: #fff;
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #F6EDD2;
 }
 
 .btn--inverse:hover {
   background: transparent;
-  color: #2a2a2a;
+  color: #1a1a1a;
 }
 
 /* ─── Footer ─────────────────────────────────────────────────── */
 
 .page__footer {
-  background: #fdf3ea;
-  border-top: 0.5px solid #e8c8a0;
+  background: #6D6E8B;
+  border-top: 0.5px solid rgba(246, 237, 210, 0.3);
   padding: 2rem 0;
 }
 
 .page__footer footer {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 300;
-  color: #aaa;
+  color: #F6EDD2;
   letter-spacing: 0.03em;
 }
 
 .page__footer a {
-  color: #aaa;
+  color: #F6EDD2;
   border-bottom: none;
 }
 
 .page__footer a:hover {
-  color: #555;
+  color: #fff;
 }
 
 /* ─── Stat counters ──────────────────────────────────────────── */
@@ -275,7 +275,7 @@ a:hover {
   font-family: 'DM Serif Display', serif;
   font-size: 24px;
   font-weight: 400;
-  color: #2a2a2a;
+  color: #1a1a1a;
   line-height: 1;
 }
 
@@ -283,7 +283,7 @@ a:hover {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #aaa;
+  color: #444;
   font-weight: 300;
 }
 
@@ -291,12 +291,12 @@ a:hover {
 
 .tag {
   display: inline-block;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 300;
   padding: 2px 9px;
-  border: 0.5px solid #ccc;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  color: #666;
+  color: #1a1a1a;
   margin: 0 4px 6px 0;
   letter-spacing: 0.02em;
 }
@@ -312,7 +312,7 @@ a:hover {
   padding: 1.5rem 3rem 3rem;
 }
 
-/* Hero: background image with blue overlay */
+/* Hero: background image with purple overlay */
 .profile-hero {
   position: relative;
   background-image: url('/images/background.jpg');
@@ -327,7 +327,7 @@ a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(238, 182, 115, 0.80);
+  background: rgba(109, 110, 139, 0.82);
 }
 
 .profile-hero__inner {
@@ -335,7 +335,7 @@ a:hover {
   padding: 1.25rem 2rem 1rem;
 }
 
-/* Photo left, name + position + interests stacked on the right */
+/* Photo left, name + position + interests + icons stacked on the right */
 .profile-name-row {
   display: flex;
   align-items: flex-start;
@@ -348,7 +348,7 @@ a:hover {
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  border: 0.5px solid rgba(0, 0, 0, 0.12);
+  border: 0.5px solid rgba(246, 237, 210, 0.4);
   flex-shrink: 0;
   display: block;
 }
@@ -356,7 +356,7 @@ a:hover {
 .profile-name-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .profile-name {
@@ -366,7 +366,7 @@ a:hover {
   margin: 0 0 0.2rem;
   letter-spacing: -0.02em;
   line-height: 1.15;
-  color: #1a1a1a;
+  color: #F6EDD2;
   border-bottom: none;
 }
 
@@ -374,9 +374,9 @@ a:hover {
   font-size: 9.5px;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #888;
+  color: rgba(246, 237, 210, 0.75);
   font-weight: 300;
-  margin: 0;
+  margin: 0 0 0.3rem;
 }
 
 /* Research interests */
@@ -387,9 +387,9 @@ a:hover {
 }
 
 .profile-interests li {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
-  color: #1a1a1a;
+  color: #F6EDD2;
   line-height: 1.45;
   padding-left: 1rem;
   position: relative;
@@ -400,27 +400,29 @@ a:hover {
   content: '•';
   position: absolute;
   left: 0;
-  color: #c07840;
+  color: rgba(246, 237, 210, 0.6);
   font-size: 11px;
 }
 
-/* Icon-only social links */
+/* Icon-only social links — aligned with bullet text, separated from interests */
 .profile-links {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
+  gap: 0.75rem;
+  padding-left: 1rem;
+  margin-top: 0.6rem;
 }
 
 .profile-links a {
-  font-size: 16px;
-  color: #999;
+  font-size: 15px;
+  color: #F6EDD2;
   border-bottom: none;
   line-height: 1;
   transition: color 0.15s ease;
 }
 
 .profile-links a:hover {
-  color: #1a1a1a;
+  color: #fff;
   border-bottom: none;
 }
 
@@ -428,14 +430,14 @@ a:hover {
 
 .profile-tabs {
   display: flex;
-  border-bottom: 0.5px solid #e8c8a0;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
   margin: 0.9rem 0 1.25rem;
 }
 
 .profile-tabs a {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
-  color: #aaa;
+  color: #555;
   border-bottom: 1.5px solid transparent;
   padding: 0.4rem 0.9rem 0.35rem;
   margin-bottom: -1px;
@@ -447,8 +449,8 @@ a:hover {
 }
 
 .profile-tabs a:hover {
-  color: #555;
-  border-bottom-color: #ccc;
+  color: #1a1a1a;
+  border-bottom-color: rgba(0, 0, 0, 0.3);
 }
 
 .profile-tabs a.active {
@@ -459,17 +461,16 @@ a:hover {
 /* ─── Profile content area ───────────────────────────────────── */
 
 .profile-content p {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.7;
-  color: #3a3a3a;
+  color: #1a1a1a;
   margin-bottom: 0.5rem;
 }
 
 .profile-content h2 {
-  font-size: 13px;
+  font-size: 14px;
   font-family: 'DM Serif Display', serif;
   font-weight: 400;
-  letter-spacing: 0em;
   color: #1a1a1a;
   margin: 1.5rem 0 0.3rem;
   text-transform: none;
@@ -481,7 +482,7 @@ a:hover {
 
 .profile-content hr {
   border: none;
-  border-top: 0.5px solid #ebebeb;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.15);
   margin: 0 0 0.75rem;
 }
 
@@ -498,7 +499,7 @@ a:hover {
   counter-increment: talk-counter;
   position: relative;
   padding: 0.6rem 0 0.6rem 1.75rem;
-  border-bottom: 0.5px solid #f0d8c0;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
 }
 
 .talk-list li:last-child {
@@ -511,31 +512,31 @@ a:hover {
   left: 0;
   top: 0.65rem;
   font-family: 'DM Serif Display', serif;
-  font-size: 11px;
-  color: #ccc;
+  font-size: 12px;
+  color: #666;
   font-weight: 400;
   min-width: 1.5rem;
 }
 
 .talk-venue {
   display: block;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
-  color: #888;
+  color: #444;
   margin-bottom: 0.1rem;
 }
 
 .talk-date {
   display: inline-block;
-  font-size: 10px;
-  color: #bbb;
+  font-size: 11px;
+  color: #555;
   font-weight: 300;
   font-style: italic;
   margin-bottom: 0.3rem;
 }
 
 .talk-title {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   color: #1a1a1a;
   margin: 0.2rem 0 0.35rem;
@@ -544,7 +545,7 @@ a:hover {
 
 .talk-title a {
   color: #1a1a1a;
-  border-bottom: 0.5px solid #ccc;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
 }
 
 .talk-title a:hover {
@@ -553,10 +554,10 @@ a:hover {
 
 .talk-type {
   display: inline-block;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 300;
   font-style: italic;
-  color: #aaa;
+  color: #555;
   letter-spacing: 0.02em;
 }
 
@@ -567,9 +568,9 @@ a:hover {
 }
 
 .teaching-term {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
-  color: #888;
+  color: #444;
   font-style: italic;
   margin: 0.75rem 0 0.2rem;
 }
@@ -585,8 +586,8 @@ a:hover {
 }
 
 .course-list li {
-  font-size: 11px;
-  color: #2a2a2a;
+  font-size: 12px;
+  color: #1a1a1a;
   line-height: 1.6;
   margin-bottom: 0.15rem;
 }
@@ -594,12 +595,12 @@ a:hover {
 .course-list li strong {
   font-weight: 500;
   color: #1a1a1a;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .course-hours {
-  font-size: 10px;
-  color: #aaa;
+  font-size: 11px;
+  color: #555;
   font-weight: 300;
 }
 
