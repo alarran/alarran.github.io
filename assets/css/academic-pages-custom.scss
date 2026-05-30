@@ -1,0 +1,355 @@
+/*
+ * Academic Pages — Custom Aesthetic Overrides
+ * Drop this file into: assets/css/
+ * Then add to your _config.yml under `sass > load_paths`, or
+ * @import it at the bottom of assets/css/main.scss
+ *
+ * Fonts: Add this to your _includes/head/custom.html (or equivalent):
+ * <link rel="preconnect" href="https://fonts.googleapis.com">
+ * <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ * <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+ */
+
+/* ─── Base typography ─────────────────────────────────────────── */
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  color: #2a2a2a;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+p {
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0.5px solid #bbb;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: #2a2a2a;
+  }
+}
+
+/* ─── Masthead / top navigation ──────────────────────────────── */
+
+.masthead {
+  border-bottom: 0.5px solid #e0e0e0;
+  background: #fff;
+  padding: 0.75rem 0;
+
+  &__inner-wrap {
+    padding: 0 1.5rem;
+  }
+}
+
+.site-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #2a2a2a;
+  border-bottom: none;
+
+  &:hover {
+    color: #555;
+    border-bottom: none;
+  }
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888;
+    border-bottom: none;
+    padding: 0.5rem 0.75rem;
+    transition: color 0.15s ease;
+
+    &:hover,
+    &.active {
+      color: #2a2a2a;
+      border-bottom: none;
+    }
+  }
+
+  .visible-links a::before {
+    display: none; /* remove default underline animation */
+  }
+}
+
+/* ─── Sidebar / author profile ───────────────────────────────── */
+
+.sidebar {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  border: 0.5px solid #e0e0e0;
+  max-width: 110px;
+}
+
+.author__name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+}
+
+.author__bio {
+  font-size: 13px;
+  font-weight: 300;
+  color: #666;
+  line-height: 1.6;
+}
+
+.author__urls {
+  li {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  a {
+    color: #666;
+    border-bottom: 0.5px solid transparent;
+
+    &:hover {
+      color: #2a2a2a;
+      border-bottom-color: #bbb;
+    }
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .ai {
+    color: #aaa;
+    font-size: 13px;
+  }
+}
+
+/* ─── Page content ───────────────────────────────────────────── */
+
+.page__content {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+
+  h1 { font-size: 28px; margin-bottom: 0.5rem; }
+  h2 { font-size: 20px; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+  h3 { font-size: 16px; font-family: 'DM Sans', sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; font-size: 11px; color: #999; margin-top: 2rem; margin-bottom: 0.5rem; }
+
+  /* Italic serif pull quote feel for em inside paragraphs */
+  p em {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #2a2a2a;
+  }
+
+  /* Section dividers */
+  hr {
+    border: none;
+    border-top: 0.5px solid #e8e8e8;
+    margin: 2rem 0;
+  }
+}
+
+/* ─── Publication list ───────────────────────────────────────── */
+
+/* Works for the default list layout in publications.md */
+.list__item {
+  border-top: 0.5px solid #ebebeb;
+  padding: 1.25rem 0;
+  margin: 0 !important;
+
+  &:last-child {
+    border-bottom: 0.5px solid #ebebeb;
+  }
+
+  .archive__item-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 4px;
+    line-height: 1.4;
+
+    a {
+      border-bottom: none;
+      color: #2a2a2a;
+
+      &:hover {
+        color: #555;
+      }
+    }
+  }
+
+  .archive__item-excerpt {
+    font-size: 13px;
+    font-weight: 300;
+    color: #888;
+    margin: 0;
+    font-style: italic;
+  }
+}
+
+/* ─── CV / experience entries ────────────────────────────────── */
+
+.cv-entry {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-top: 0.5px solid #ebebeb;
+  align-items: flex-start;
+
+  .cv-year {
+    font-size: 12px;
+    color: #aaa;
+    font-weight: 300;
+    min-width: 64px;
+    padding-top: 2px;
+    letter-spacing: 0.03em;
+  }
+
+  .cv-body {
+    flex: 1;
+
+    strong {
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 13px;
+      color: #888;
+      margin: 2px 0 0;
+    }
+  }
+}
+
+/* ─── Buttons & CTAs ─────────────────────────────────────────── */
+
+.btn {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 0;
+  background: transparent;
+  border: 0.5px solid #bbb;
+  color: #555;
+  transition: all 0.15s ease;
+
+  &:hover {
+    background: #2a2a2a;
+    border-color: #2a2a2a;
+    color: #fff;
+  }
+
+  &--inverse {
+    background: #2a2a2a;
+    border-color: #2a2a2a;
+    color: #fff;
+
+    &:hover {
+      background: transparent;
+      color: #2a2a2a;
+    }
+  }
+}
+
+/* ─── Footer ─────────────────────────────────────────────────── */
+
+.page__footer {
+  background: #fff;
+  border-top: 0.5px solid #e8e8e8;
+  padding: 2rem 0;
+
+  footer {
+    font-size: 12px;
+    font-weight: 300;
+    color: #aaa;
+    letter-spacing: 0.03em;
+  }
+
+  a {
+    color: #aaa;
+    border-bottom: none;
+
+    &:hover {
+      color: #555;
+    }
+  }
+}
+
+/* ─── Utility: stat counters (optional, add to your about page) ─ */
+/*
+  Usage in your .md file:
+  <div class="stat-row">
+    <div class="stat"><strong>24</strong><span>Publications</span></div>
+    <div class="stat"><strong>1,840</strong><span>Citations</span></div>
+  </div>
+*/
+
+.stat-row {
+  display: flex;
+  gap: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.stat {
+  strong {
+    display: block;
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #2a2a2a;
+    line-height: 1;
+  }
+
+  span {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #aaa;
+    font-weight: 300;
+  }
+}
+
+/* ─── Research interest tags (optional) ─────────────────────── */
+/*
+  Usage: <span class="tag">Machine Learning</span>
+*/
+
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 300;
+  padding: 3px 10px;
+  border: 0.5px solid #ccc;
+  border-radius: 20px;
+  color: #666;
+  margin: 0 4px 6px 0;
+  letter-spacing: 0.02em;
+}
