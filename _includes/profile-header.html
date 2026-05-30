@@ -19,16 +19,15 @@
         {% if author.position %}
           <p class="profile-position">{{ author.position }}</p>
         {% endif %}
+        {% if author.research_interests %}
+          <ul class="profile-interests">
+            {% for interest in author.research_interests %}
+              <li>{{ interest }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
     </div>
-
-    {% if author.research_interests %}
-      <ul class="profile-interests">
-        {% for interest in author.research_interests %}
-          <li>{{ interest }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
 
     <div class="profile-links">
       {% if author.googlescholar %}
