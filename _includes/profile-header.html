@@ -6,27 +6,40 @@
   {% assign author = site.author %}
 {% endif %}
 
-{% assign name_parts = author.name | split: ' ' %}
-{% assign first_initial = name_parts[0] | slice: 0 | upcase %}
-{% assign last_initial = name_parts.last | slice: 0 | upcase %}
-
 <header class="profile-hero">
-  <div class="profile-avatar">
-    {% if author.avatar %}
-      <img src="{{ base_path }}/images/{{ author.avatar }}" alt="{{ author.name }}" />
-    {% else %}
-      <div class="profile-initials">{{ first_initial }}{{ last_initial }}</div>
+  <div class="profile-hero__inner">
+    <div class="profile-name-row">
+      {% if author.avatar %}
+        <img class="profile-avatar-sm"
+             src="{{ base_path }}/images/{{ author.avatar }}"
+             alt="{{ author.name }}" />
+      {% endif %}
+      <h1 class="profile-name">{{ author.name }}</h1>
+    </div>
+
+    {% if author.position %}
+      <p class="profile-position">{{ author.position }}</p>
     {% endif %}
-  </div>
-  <div class="profile-hero__info">
-    <h1 class="profile-name">{{ author.name }}</h1>
-    {% if author.position %}<p class="profile-position">{{ author.position }}</p>{% endif %}
+
     <div class="profile-links">
-      {% if author.googlescholar %}<a href="{{ author.googlescholar }}">Google Scholar</a>{% endif %}
-      {% if author.orcid %}<a href="{{ author.orcid }}">ORCID</a>{% endif %}
-      {% if author.researchgate %}<a href="{{ author.researchgate }}">ResearchGate</a>{% endif %}
-      <a href="{{ base_path }}/cv/">CV</a>
-      {% if author.email %}<a href="mailto:{{ author.email }}">Email</a>{% endif %}
+      {% if author.googlescholar %}
+        <a href="{{ author.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar ai-fw"></i></a>
+      {% endif %}
+      {% if author.orcid %}
+        <a href="{{ author.orcid }}" title="ORCID"><i class="ai ai-orcid ai-fw"></i></a>
+      {% endif %}
+      {% if author.researchgate %}
+        <a href="{{ author.researchgate }}" title="ResearchGate"><i class="fab fa-fw fa-researchgate"></i></a>
+      {% endif %}
+      {% if author.scopus %}
+        <a href="{{ author.scopus }}" title="Scopus"><i class="ai ai-scopus ai-fw"></i></a>
+      {% endif %}
+      {% if author.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ author.linkedin }}" title="LinkedIn"><i class="fab fa-fw fa-linkedin"></i></a>
+      {% endif %}
+      {% if author.email %}
+        <a href="mailto:{{ author.email }}" title="Email"><i class="fas fa-fw fa-envelope"></i></a>
+      {% endif %}
     </div>
   </div>
 </header>
