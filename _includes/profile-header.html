@@ -14,12 +14,13 @@
              src="{{ base_path }}/images/{{ author.avatar }}"
              alt="{{ author.name }}" />
       {% endif %}
-      <h1 class="profile-name">{{ author.name }}</h1>
+      <div class="profile-name-info">
+        <h1 class="profile-name">{{ author.name }}</h1>
+        {% if author.position %}
+          <p class="profile-position">{{ author.position }}</p>
+        {% endif %}
+      </div>
     </div>
-
-    {% if author.position %}
-      <p class="profile-position">{{ author.position }}</p>
-    {% endif %}
 
     {% if author.research_interests %}
       <ul class="profile-interests">

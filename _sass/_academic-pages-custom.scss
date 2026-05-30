@@ -3,7 +3,7 @@
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 11px;
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   color: #2a2a2a;
@@ -47,7 +47,7 @@ a:hover {
 
 .site-title {
   font-family: 'DM Serif Display', serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: -0.01em;
   color: #2a2a2a;
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .greedy-nav a {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -98,21 +98,21 @@ a:hover {
 
 .author__name {
   font-family: 'DM Serif Display', serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.01em;
   margin-bottom: 4px;
 }
 
 .author__bio {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 300;
   color: #666;
   line-height: 1.6;
 }
 
 .author__urls li {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 300;
 }
 
@@ -131,19 +131,19 @@ a:hover {
 .author__urls .far,
 .author__urls .ai {
   color: #aaa;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 /* ─── Page content ───────────────────────────────────────────── */
 
 .page__content {
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 300;
   line-height: 1.8;
 }
 
-.page__content h1 { font-size: 28px; margin-bottom: 0.5rem; }
-.page__content h2 { font-size: 20px; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+.page__content h1 { font-size: 18px; margin-bottom: 0.5rem; }
+.page__content h2 { font-size: 13px; margin-top: 2.5rem; margin-bottom: 0.75rem; }
 .page__content h3 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
@@ -158,7 +158,7 @@ a:hover {
 .page__content p em {
   font-family: 'DM Serif Display', serif;
   font-style: italic;
-  font-size: 16px;
+  font-size: 13px;
   color: #2a2a2a;
 }
 
@@ -172,7 +172,7 @@ a:hover {
 
 .list__item {
   border-top: 0.5px solid #ebebeb;
-  padding: 1.25rem 0;
+  padding: 1rem 0;
   margin: 0 !important;
 }
 
@@ -182,7 +182,7 @@ a:hover {
 
 .list__item .archive__item-title {
   font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   margin: 0 0 4px;
   line-height: 1.4;
@@ -198,7 +198,7 @@ a:hover {
 }
 
 .list__item .archive__item-excerpt {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 300;
   color: #888;
   margin: 0;
@@ -209,11 +209,11 @@ a:hover {
 
 .btn {
   font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 6px 16px;
+  padding: 5px 14px;
   border-radius: 0;
   background: transparent;
   border: 0.5px solid #bbb;
@@ -247,7 +247,7 @@ a:hover {
 }
 
 .page__footer footer {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 300;
   color: #aaa;
   letter-spacing: 0.03em;
@@ -273,14 +273,14 @@ a:hover {
 .stat strong {
   display: block;
   font-family: 'DM Serif Display', serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   color: #2a2a2a;
   line-height: 1;
 }
 
 .stat span {
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #aaa;
@@ -291,9 +291,9 @@ a:hover {
 
 .tag {
   display: inline-block;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 300;
-  padding: 3px 10px;
+  padding: 2px 9px;
   border: 0.5px solid #ccc;
   border-radius: 20px;
   color: #666;
@@ -313,7 +313,7 @@ a:hover {
   padding: 3.5rem 3rem 5rem 5rem;
 }
 
-/* Hero: background image with white overlay */
+/* Hero: background image with blue overlay */
 .profile-hero {
   position: relative;
   background-image: url('/images/background.jpg');
@@ -336,17 +336,17 @@ a:hover {
   padding: 2.5rem 3rem 2.25rem;
 }
 
-/* Name row: small circular photo + name side by side */
+/* Photo left, name + position stacked on the right */
 .profile-name-row {
   display: flex;
   align-items: center;
-  gap: 0.9rem;
-  margin-bottom: 0.35rem;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .profile-avatar-sm {
-  width: 68px;
-  height: 68px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   object-fit: cover;
   border: 0.5px solid rgba(0, 0, 0, 0.12);
@@ -354,11 +354,17 @@ a:hover {
   display: block;
 }
 
+.profile-name-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .profile-name {
   font-family: 'DM Serif Display', serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
-  margin: 0;
+  margin: 0 0 0.2rem;
   letter-spacing: -0.02em;
   line-height: 1.15;
   color: #1a1a1a;
@@ -366,12 +372,12 @@ a:hover {
 }
 
 .profile-position {
-  font-size: 10.5px;
+  font-size: 9.5px;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: #888;
   font-weight: 300;
-  margin: 0 0 0.85rem;
+  margin: 0;
 }
 
 /* Research interests */
@@ -382,7 +388,7 @@ a:hover {
 }
 
 .profile-interests li {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   color: #1a1a1a;
   line-height: 1.55;
@@ -407,7 +413,7 @@ a:hover {
 }
 
 .profile-links a {
-  font-size: 17px;
+  font-size: 16px;
   color: #999;
   border-bottom: none;
   line-height: 1;
@@ -428,7 +434,7 @@ a:hover {
 }
 
 .profile-tabs a {
-  font-size: 12.5px;
+  font-size: 11px;
   font-weight: 400;
   color: #aaa;
   border-bottom: 1.5px solid transparent;
@@ -454,19 +460,19 @@ a:hover {
 /* ─── Profile content area ───────────────────────────────────── */
 
 .profile-content p {
-  font-size: 14.5px;
+  font-size: 11px;
   line-height: 1.8;
   color: #3a3a3a;
 }
 
 .profile-content h2 {
-  font-size: 10.5px;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #aaa;
+  font-size: 13px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #1a1a1a;
   margin: 2.5rem 0 0.5rem;
+  text-transform: none;
 }
 
 .profile-content h2:first-child {
@@ -491,7 +497,7 @@ a:hover {
 .talk-list li {
   counter-increment: talk-counter;
   position: relative;
-  padding: 1.25rem 0 1.25rem 2.25rem;
+  padding: 1rem 0 1rem 2rem;
   border-bottom: 0.5px solid #ebebeb;
 }
 
@@ -503,9 +509,9 @@ a:hover {
   content: counter(talk-counter);
   position: absolute;
   left: 0;
-  top: 1.35rem;
+  top: 1.1rem;
   font-family: 'DM Serif Display', serif;
-  font-size: 13px;
+  font-size: 11px;
   color: #ccc;
   font-weight: 400;
   min-width: 1.5rem;
@@ -513,7 +519,7 @@ a:hover {
 
 .talk-venue {
   display: block;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   color: #888;
   margin-bottom: 0.1rem;
@@ -521,7 +527,7 @@ a:hover {
 
 .talk-date {
   display: inline-block;
-  font-size: 11px;
+  font-size: 10px;
   color: #bbb;
   font-weight: 300;
   font-style: italic;
@@ -529,7 +535,7 @@ a:hover {
 }
 
 .talk-title {
-  font-size: 14.5px;
+  font-size: 13px;
   font-weight: 400;
   color: #1a1a1a;
   margin: 0.2rem 0 0.35rem;
@@ -547,7 +553,7 @@ a:hover {
 
 .talk-type {
   display: inline-block;
-  font-size: 10.5px;
+  font-size: 10px;
   font-weight: 300;
   font-style: italic;
   color: #aaa;
@@ -561,7 +567,7 @@ a:hover {
 }
 
 .teaching-term {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   color: #888;
   font-style: italic;
@@ -574,12 +580,12 @@ a:hover {
 
 .course-list {
   list-style: none;
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 0;
 }
 
 .course-list li {
-  font-size: 14px;
+  font-size: 11px;
   color: #2a2a2a;
   line-height: 1.6;
   margin-bottom: 0.15rem;
@@ -588,10 +594,11 @@ a:hover {
 .course-list li strong {
   font-weight: 500;
   color: #1a1a1a;
+  font-size: 13px;
 }
 
 .course-hours {
-  font-size: 12px;
+  font-size: 10px;
   color: #aaa;
   font-weight: 300;
 }
@@ -605,5 +612,10 @@ a:hover {
 
   .profile-hero__inner {
     padding: 1.75rem 1.25rem 1.5rem;
+  }
+
+  .profile-avatar-sm {
+    width: 68px;
+    height: 68px;
   }
 }
