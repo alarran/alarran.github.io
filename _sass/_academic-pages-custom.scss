@@ -725,12 +725,13 @@ a:hover {
 .single-profile-wrap {
   max-width: 720px;
   margin: 1.5rem auto 2rem;
-  padding: 2rem 3rem 4rem;
+  padding: 2.5rem 3rem 6rem;
   background: rgba(255, 255, 255, 0.55);
   border-radius: 4px;
   overflow-wrap: break-word;
   word-break: break-word;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .single-profile-wrap h1,
