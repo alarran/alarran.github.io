@@ -327,7 +327,7 @@ a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(109, 110, 139, 0.82);
+  background: rgba(109, 110, 139, 0.50);
 }
 
 .profile-hero__inner {
@@ -366,7 +366,7 @@ a:hover {
   margin: 0 0 0.2rem;
   letter-spacing: -0.02em;
   line-height: 1.15;
-  color: #F6EDD2;
+  color: #1a1a1a;
   border-bottom: none;
 }
 
@@ -374,7 +374,7 @@ a:hover {
   font-size: 9.5px;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: rgba(246, 237, 210, 0.75);
+  color: #3a3a3a;
   font-weight: 300;
   margin: 0 0 0.3rem;
 }
@@ -389,7 +389,7 @@ a:hover {
 .profile-interests li {
   font-size: 12px;
   font-weight: 400;
-  color: #F6EDD2;
+  color: #1a1a1a;
   line-height: 1.45;
   padding-left: 1rem;
   position: relative;
@@ -400,7 +400,7 @@ a:hover {
   content: '•';
   position: absolute;
   left: 0;
-  color: rgba(246, 237, 210, 0.6);
+  color: #3a3a3a;
   font-size: 11px;
 }
 
@@ -602,6 +602,38 @@ a:hover {
   font-size: 11px;
   color: #555;
   font-weight: 300;
+}
+
+/* ─── Awards list ────────────────────────────────────────────── */
+
+.award-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.award-list li {
+  padding: 0.55rem 0 0.55rem 1rem;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.12);
+  font-size: 12px;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+.award-list li:last-child {
+  border-bottom: none;
+}
+
+.award-title {
+  font-weight: 500;
+}
+
+.award-source {
+  display: block;
+  font-size: 11px;
+  color: #555;
+  font-style: italic;
+  margin-top: 0.1rem;
 }
 
 /* ─── Single publication / talk / teaching pages ─────────────── */
