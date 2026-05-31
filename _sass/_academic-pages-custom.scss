@@ -2,6 +2,7 @@
 
 html {
   background-color: #dce0f0 !important;
+  overflow-y: scroll;
 }
 
 body {
@@ -12,6 +13,8 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #1a1a1a;
   background-color: #dce0f0 !important;
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 h1, h2, h3, h4 {
@@ -721,12 +724,13 @@ a:hover {
 
 .single-profile-wrap {
   max-width: 720px;
-  margin: 0 auto;
+  margin: 1.5rem auto 2rem;
   padding: 2rem 3rem 4rem;
   background: rgba(255, 255, 255, 0.55);
   border-radius: 4px;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  box-sizing: border-box;
 }
 
 .single-profile-wrap h1,
@@ -736,6 +740,7 @@ a:hover {
   margin-bottom: 0.4rem !important;
   line-height: 1.4 !important;
   letter-spacing: -0.01em;
+  overflow-wrap: break-word;
 }
 
 .single-meta {
@@ -767,5 +772,14 @@ a:hover {
   .profile-avatar-sm {
     width: 60px;
     height: 60px;
+  }
+
+  .single-profile-wrap {
+    margin: 0.75rem 0.75rem 1.5rem;
+    padding: 1.25rem 1.25rem 2rem;
+  }
+
+  .profile-nav-compact {
+    padding: 0.5rem 1rem;
   }
 }
