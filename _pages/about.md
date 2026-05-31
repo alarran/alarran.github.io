@@ -13,6 +13,14 @@ I graduated with a bachelor's degree in Energy Engineering from the <a href="htt
 
 Throughout my academic journey, I’ve always looked for opportunities to learn more by collaborating with researchers from all over the world! During my undergrad, I spent an entire year at the <a href="https://www.ntnu.edu/">Norwegian University of Science and Technology</a>, where I worked under the supervision of <a href="https://www.ntnu.edu/employees/armin.hafner)">Armin Hafner</a> and <a href="https://www.linkedin.com/in/yosr-allouche-ph-d-6465831b/?originalSubdomain=fr)">Yosr Allouche</a>. There, I contributed on the development of a cold thermal energy storage, integrated into a R744 supermarket refrigeration system. Later, during my Ph.D. studies, I also completed a three-month research stay at the <a href="https://www.unimelb.edu.au/">University of Melbourne (Australia)</a>., where I collaborated with <a href="https://findanexpert.unimelb.edu.au/profile/742813-richard-sandberg">Richard Sandberg’s group</a>. There, I contributed to the development of surrogate models for microfinned surfaces using the group’s in-house machine learning framework, EVE3, based on evolutionary algorithms. You can find the results of this collaboration in my publications!
 
+## News
+
+<div class="news-item">
+  <p class="news-date">March 2026</p>
+  <a href="https://www.farodevigo.es/estela/2026/03/01/muevo-curiosidad-motiva-aprender-cosas-127380385.html" class="news-link" target="_blank">Featured in Faro de Vigo</a>
+  <p class="news-text">Really grateful for the opportunity to be interviewed by Faro de Vigo, where I reflect on my journey in academia so far. It's a little outside my comfort zone, but I hope sharing my experience can inspire others along the way!</p>
+</div>
+
 ## Awards and Recognitions
 
 <ul class="award-list">

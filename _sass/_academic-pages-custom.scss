@@ -7,7 +7,7 @@ body {
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   color: #1a1a1a;
-  background-color: #9BA3D2;
+  background-color: #dce0f0;
 }
 
 h1, h2, h3, h4 {
@@ -327,7 +327,7 @@ a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(109, 110, 139, 0.50);
+  background: rgba(235, 237, 248, 0.55);
 }
 
 .profile-hero__inner {
@@ -602,6 +602,45 @@ a:hover {
   font-size: 11px;
   color: #555;
   font-weight: 300;
+}
+
+/* ─── News / Highlights ──────────────────────────────────────── */
+
+.news-item {
+  padding: 0.75rem 1rem;
+  border-left: 2px solid #9BA3D2;
+  background: rgba(155, 163, 210, 0.1);
+  border-radius: 0 3px 3px 0;
+  margin-top: 0.5rem;
+}
+
+.news-date {
+  font-size: 10px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.2rem;
+  font-weight: 400;
+}
+
+.news-link {
+  font-size: 13px;
+  font-weight: 500;
+  color: #1a1a1a;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
+  display: inline;
+}
+
+.news-link:hover {
+  border-bottom-color: #1a1a1a;
+}
+
+.news-text {
+  font-size: 12px;
+  color: #3a3a3a;
+  margin: 0.35rem 0 0;
+  font-style: italic;
+  line-height: 1.6;
 }
 
 /* ─── Awards list ────────────────────────────────────────────── */
