@@ -1,0 +1,11 @@
+---
+title: "Viability of Agricultural and Forestry Residues as Biomass Fuels in the Galicia-North Portugal Region: An Experimental Study"
+collection: publications
+category: manuscripts
+date: 2020-01-01
+venue: 'Sustainability'
+paperurl: 'https://doi.org/10.3390/su12198206'
+citation: 'Juan Jesús Rico, Raquel Pérez-Orozco, Natalia Cid, Ana Larrañaga, and José Luis Míguez Tabarés. Viability of Agricultural and Forestry Residues as Biomass Fuels in the Galicia-North Portugal Region: An Experimental Study. Sustainability, 12(19), 2020.'
+---
+
+In this study, an experimental approach was utilized to assess the viability of three biomass fuels in a small laboratory-scale combustor. Three feedstocks currently considered as residues were selected based on their widespread presence in the Euroregion Galicia-North Portugal, and some were modified to improve their behavior by removing fine particles or adding substances to increase the melting point of the ashes. The experimental facility was a highly modifiable, fixed-bed combustor with air-staging capabilities and a wide array of sensors intended to measure a large quantity of parameters. A series of tests was performed to cover the widest range of total air flows possible for the facility, with values of 0.223, 0.279 and 0.334 kg/m²s being used, while 30% of the total air flow enters from below the combustion bed and 70% over it. Results from the proximate and elemental analyses show high proportions of ash in every fuel compared to commercial wood pellets, and empirical deposition indexes suggest a high risk of fouling and slagging. Testing confirmed the analysis predictions, resulting in the kiwi- and vine-based fuels not being suitable for a facility without ash elimination systems. Some modifications of the gorse fuel showed improved behavior compared to unmodified gorse fuel, namely, the addition of a 2% mass fraction of CaCO3 and the removal of fine particles. The former prevented ash sintering, and the latter greatly decreased the fouling of the heat exchanger tubes. These results suggest that some of the vegetal species studied might be suitable for their use in small-scale biomass burners, and besides the accuracy of one of the deposition indexes used is confirmed

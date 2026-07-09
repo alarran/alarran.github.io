@@ -1,0 +1,11 @@
+---
+title: "Proof of concept of the potential of a machine learning algorithm to extract new information from conventional SARS-CoV-2 rRT-PCR results"
+collection: publications
+category: manuscripts
+date: 2023-01-01
+venue: 'Scientific Reports'
+paperurl: 'https://doi.org/10.1038/s41598-023-34882-6'
+citation: 'Jorge Cabrera Alvargonzález, Ana Larrañaga Janeiro, Sonia Pérez Castro, Javier Martínez Torres, Lucía Martínez Lamas, Carlos Daviña Nuñez, Víctor Del Campo-Pérez, Silvia Suarez Luque, Benito Regueiro García, and Jacobo Porteiro Fresco. Proof of concept of the potential of a machine learning algorithm to extract new information from conventional SARS-CoV-2 rRT-PCR results. Scientific Reports, 13(1):7786, 2023.'
+---
+
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been and remains one of the major challenges modern society has faced thus far. Over the past few months, large amounts of information have been collected that are only now beginning to be assimilated. In the present work, the existence of residual information in the massive numbers of rRT-PCRs that tested positive out of the almost half a million tests that were performed during the pandemic is investigated. This residual information is believed to be highly related to a pattern in the number of cycles that are necessary to detect positive samples as such. Thus, a database of more than 20,000 positive samples was collected, and two supervised classification algorithms (a support vector machine and a neural network) were trained to temporally locate each sample based solely and exclusively on the number of cycles determined in the rRT-PCR of each individual. Overall, this study suggests that there is valuable residual information in the rRT-PCR positive samples that can be used to identify patterns in the development of the SARS-CoV-2 pandemic. The successful application of supervised classification algorithms to detect these patterns demonstrates the potential of machine learning techniques to aid in understanding the spread of the virus and its variants.

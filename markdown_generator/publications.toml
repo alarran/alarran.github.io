@@ -1,0 +1,94 @@
+# =============================================================================
+# Publication list — SINGLE SOURCE OF TRUTH
+# =============================================================================
+# Edit this file to add/change/remove papers, then regenerate the site pages:
+#
+#     python3 markdown_generator/generate_publications.py
+#
+# That command (re)writes one file per paper into _publications/. Do NOT edit
+# the files in _publications/ by hand — they are overwritten on every run.
+#
+# To ADD a paper: copy a [[publication]] block below, fill in the fields.
+#   - filename : the .md name in _publications/ (no extension). Keep it unique
+#                and stable; the sort order on the site is by `date`, not name.
+#   - category : must match a key under `publication_category` in _config.yml
+#                (currently: "manuscripts" or "conferences").
+#   - abstract : free text. Use the triple-quoted """...""" block so you can
+#                paste multi-paragraph text with %, €, Greek letters, etc.
+#
+# Tip: Google Scholar's BibTeX export gives you title/venue/authors/citation
+# but NOT the abstract — paste that in yourself.
+# =============================================================================
+
+[[publication]]
+filename = "2023_04"
+title    = "Data-driven prediction of the performance of enhanced surfaces from an extensive CFD-generated parametric search space"
+category = "manuscripts"
+date     = "2023-03-01"
+venue    = "Machine Learning: Science and Technology"
+paperurl = "https://iopscience.iop.org/article/10.1088/2632-2153/acca60/meta"
+citation = "A Larrañaga, S L Brunton, J Martinez, S Chapela, and J Porteiro. Data-driven prediction of the performance of enhanced surfaces from an extensive cfd-generated parametric search space. Machine Learning: Science and Technology, 4(2):025012, 2023."
+abstract = """
+Machine learning has rapidly been adopted in virtually all areas of engineering in recent years. This paper develops a machine learning model capable of predicting the performance of parametrically generated enhanced microsurface geometries for cooling electronic and power systems. Designing this type of geometry usually involves expensive computational fluid dynamics (CFD) simulations, limiting the number of candidate geometries that may be tested. For this reason, when searching for new geometries for a given application, designs are usually restricted to a simplified subset of basic shapes to reduce the complexity and dimension of the search space. In an effort to add geometrical diversity and explore singular morphologies, we have developed an algorithm capable of characterizing almost any geometry, based on an extensive CFD database with more than 15800 geometries obtained from a Monte Carlo sampling of the space of possible geometries. With this framework, it is possible to estimate various quantities of interest, such as the heat flux in the enhanced zone and total drag, with relative errors below 10% and 2%, respectively. Thus, we establish the utility of machine learning to develop surrogate models for the rapid performance prediction of novel enhanced microsurfaces.
+"""
+
+[[publication]]
+filename = "2024_02"
+title    = "Robust optimization of heat-transfer-enhancing microtextured surfaces based on machine learning surrogate models"
+category = "manuscripts"
+date     = "2024-02-01"
+venue    = "International Communications in Heat and Mass Transfer"
+paperurl = "https://www.sciencedirect.com/science/article/pii/S0735193323006073"
+citation = "A. Larrañaga, J. Martinez, J.L. Miguez, and J. Porteiro. Robust optimization of heat-transfer-enhancing microtextured surfaces based on machine learning surrogate models. International Communications in Heat and Mass Transfer, 151:107218, 2024"
+abstract = """
+Currently, there is a growing industry-wide focus on enhancing the thermohydraulic performances of devices, with the goal of achieving more efficient energy management. However, due to manufacturing constraints, there has been a tendency to focus on simple geometric designs. Recently, the emergence of additive manufacturing techniques and advancements in artificial intelligence have enabled new possibilities in this field. In this work, a pioneering exploration of a novel methodology for optimization of microfins to enhance the heat transfer on flat surfaces is presented. The optimization is performed using data-driven algorithms to accelerate the evaluation of the performance of these surfaces; these algorithms are trained on a database of 15,694 numerical simulations of enhanced surfaces. The performance evaluation criterion (PEC), equal to the ratio between the thermal and hydraulic performance parameters of the geometry, is used as the objective function. To avoid an optimization that focuses solely on the compactness of the fins while ignoring their shape, the optimal geometry is sought, which proves to be a challenge. Hence, an optimization method that classifies the surfaces based on their periodicity is proposed, focusing on improving the performance in terms of the morphology. Results present a PEC augmentation range from +0.08 to +0.28.
+"""
+
+[[publication]]
+filename = "2024_05"
+title    = "Proof of concept of the potential of a machine learning algorithm to extract new information from conventional SARS-CoV-2 rRT-PCR results"
+category = "manuscripts"
+date     = "2023-05-17"
+venue    = "Scientific Reports"
+paperurl = "https://www.nature.com/articles/s41598-023-34882-6"
+citation = "Jorge Cabrera Alvargonzalez, Ana Larrañaga Janeiro, Sonia Perez Castro, Javier Martinez Torres, Lucia Martinez Lamas, Carlos Daviña Nuñez, Victor Del Campo-Perez, Silvia Suarez Luque, Benito Regueiro Garcia, and Jacobo Porteiro Fresco. Proof of concept of the potential of a machine learning algorithm to extract new information from conventional sars-cov-2 rrt-pcr results. Scientific Reports, 13(1):7786, 2023"
+abstract = """
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been and remains one of the major challenges modern society has faced thus far. Over the past few months, large amounts of information have been collected that are only now beginning to be assimilated. In the present work, the existence of residual information in the massive numbers of rRT-PCRs that tested positive out of the almost half a million tests that were performed during the pandemic is investigated. This residual information is believed to be highly related to a pattern in the number of cycles that are necessary to detect positive samples as such. Thus, a database of more than 20,000 positive samples was collected, and two supervised classification algorithms (a support vector machine and a neural network) were trained to temporally locate each sample based solely and exclusively on the number of cycles determined in the rRT-PCR of each individual. Overall, this study suggests that there is valuable residual information in the rRT-PCR positive samples that can be used to identify patterns in the development of the SARS-CoV-2 pandemic. The successful application of supervised classification algorithms to detect these patterns demonstrates the potential of machine learning techniques to aid in understanding the spread of the virus and its variants.
+"""
+
+[[publication]]
+filename = "2024_09"
+title    = "Assessment of the Effective Sensitivity of SARS-CoV-2 Sample Pooling Based on a Large-Scale Screening Experience: Retrospective Analysis"
+category = "manuscripts"
+date     = "2024-09-01"
+venue    = "JMIR Public Health and Surveillance"
+paperurl = "https://publichealth.jmir.org/2024/1/e54503/"
+citation = "Jorge J Cabrera Alvargonzalez, Ana Larrañaga, Javier Martinez, Sonia Perez Castro, Sonia Rey Cao, Carlos Daviña Nuñez, Victor Del Campo Perez, Carmen Duran Parrondo, Silvia Suarez Luque, Elena Gonzalez Alonso, Alfredo Jose Silva Tojo, Jacobo Porteiro, and Benito Regueiro. Assessment of the effective sensitivity of sars-cov-2 sample pooling based on a large-scale screening experience: Retrospective analysis. JMIR Public Health Surveill, 10:e54503, Sep 2024"
+abstract = """
+Background:
+The development of new large-scale saliva pooling detection strategies can significantly enhance testing capacity and frequency for asymptomatic individuals, which is crucial for containing SARS-CoV-2.
+
+Objective:
+This study aims to implement and scale-up a SARS-CoV-2 screening method using pooled saliva samples to control the virus in critical areas and assess its effectiveness in detecting asymptomatic infections.
+
+Methods:
+Between August 2020 and February 2022, our laboratory received a total of 928,357 samples. Participants collected at least 1 mL of saliva using a self-sampling kit and registered their samples via a smartphone app. All samples were directly processed using AutoMate 2550 for preanalytical steps and then transferred to Microlab STAR, managed with the HAMILTON Pooling software for pooling. The standard pool preset size was 20 samples but was adjusted to 5 when the prevalence exceeded 2% in any group. Real-time polymerase chain reaction (RT-PCR) was conducted using the Allplex SARS-CoV-2 Assay until July 2021, followed by the Allplex SARS-CoV-2 FluA/FluB/RSV assay for the remainder of the study period.
+
+Results:
+Of the 928,357 samples received, 887,926 (95.64%) were fully processed into 56,126 pools. Of these pools, 4863 tested positive, detecting 5720 asymptomatic infections. This allowed for a comprehensive analysis of pooling’s impact on RT-PCR sensitivity and false-negative rate (FNR), including data on positive samples per pool (PPP). We defined Ctref as the minimum cycle threshold (Ct) of each data set from a sample or pool and compared these Ctref results from pooled samples with those of the individual tests (ΔCtP). We then examined their deviation from the expected offset due to dilution [ΔΔCtP = ΔCtP – log2]. In this work, the ΔCtP and ΔΔCtP were 2.23 versus 3.33 and –0.89 versus 0.23, respectively, comparing global results with results for pools with 1 positive sample per pool. Therefore, depending on the number of genes used in the test and the size of the pool, we can evaluate the FNR and effective sensitivity (1 – FNR) of the test configuration. In our scenario, with a maximum of 20 samples per pool and 3 target genes, statistical observations indicated an effective sensitivity exceeding 99%. From an economic perspective, the focus is on pooling efficiency, measured by the effective number of persons that can be tested with 1 test, referred to as persons per test (PPT). In this study, the global PPT was 8.66, reflecting savings of over 20 million euros (US $22 million) based on our reagent prices.
+
+Conclusions:
+Our results demonstrate that, as expected, pooling reduces the sensitivity of RT-PCR. However, with the appropriate pool size and the use of multiple target genes, effective sensitivity can remain above 99%. Saliva pooling may be a valuable tool for screening and surveillance in asymptomatic individuals and can aid in controlling SARS-CoV-2 transmission. Further studies are needed to assess the effectiveness of these strategies for SARS-CoV-2 and their application to other microorganisms or biomarkers detected by PCR.
+"""
+
+[[publication]]
+filename = "2024_11"
+title    = "On the machine learning-assisted identification of the fundamental parameters of nonstandard microfin arrays to assess their heat transfer performance"
+category = "manuscripts"
+date     = "2024-11-01"
+venue    = "Engineering Applications of Artificial Intelligence"
+paperurl = "https://www.sciencedirect.com/science/article/pii/S0952197624011035"
+citation = "A. Larrañaga, R.D. Sandberg, J. Martinez, and J. Porteiro. On the machine learning-assisted identification of the fundamental parameters of nonstandard microfin arrays to assess their heat transfer performance. Engineering Applications of Artificial Intelligence, 136:108945, 2024."
+abstract = """
+Microfin design for industrial applications has been extensively studied in the past, but the use of innovative techniques that can reveal hitherto unfamiliar morphologies realizable with novel additive manufacturing techniques has not yet been fully exploited. Here, an attempt is made to develop a structured methodology for the assessment of various randomly generated geometries, with the purpose of identifying the most significant geometrical parameters for their thermohydraulic performance. To do so, a computational fluid dynamics (CFD) database consisting of nearly 16,000 geometrical configurations was used, and various feature extraction algorithms were analyzed and compared from a classical, mechanistic perspective, within a structured framework called data interconnectivity and correlation for explainability, or DICE for short. The input parametric search space of geometries is composed of 15 features that represent the coordinates of the vertices of the microfin and the periodic separation between them. Based on data-driven models trained with heat flux and total drag as separate targets, a reduction to just three crucial geometrical parameters is achieved. The physical reasons behind this reduced set of key parameters are discussed. In addition, based on gene expression programming, two mathematical expressions were produced that, with only six of the inputs, are able to model the performance of the parameterized microfin array with a relative error of 13.82% for the heat flux and 3.40% for the total drag. Ultimately, this study successfully addresses the challenge of managing complex, high-dimensional feature spaces through a comprehensive analysis of explainability.
+"""

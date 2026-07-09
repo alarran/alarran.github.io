@@ -2,11 +2,10 @@
 title: "Assessment of the Effective Sensitivity of SARS-CoV-2 Sample Pooling Based on a Large-Scale Screening Experience: Retrospective Analysis"
 collection: publications
 category: manuscripts
-excerpt: ' '
 date: 2024-09-01
 venue: 'JMIR Public Health and Surveillance'
-paperurl: 'https://publichealth.jmir.org/2024/1/e54503/'
-citation: 'Jorge J Cabrera Alvargonzalez, Ana Larrañaga, Javier Martinez, Sonia Perez Castro, Sonia Rey Cao, Carlos Daviña Nuñez, Victor Del Campo Perez, Carmen Duran Parrondo, Silvia Suarez Luque, Elena Gonzalez Alonso, Alfredo Jose Silva Tojo, Jacobo Porteiro, and Benito Regueiro. Assessment of the effective sensitivity of sars-cov-2 sample pooling based on a large-scale screening experience: Retrospective analysis. JMIR Public Health Surveill, 10:e54503, Sep 2024'
+paperurl: 'https://publichealth.jmir.org/2024/1/e54503'
+citation: 'Jorge J Cabrera Alvargonzález, Ana Larrañaga, Javier Martínez, Sonia Pérez Castro, Sonia Rey Cao, Carlos Daviña Nuñez, Víctor Del Campo-Pérez, Carmen Duran Parrondo, Silvia Suarez Luque, Elena González Alonso, Alfredo José Silva Tojo, Jacobo Porteiro, and Benito Regueiro. Assessment of the Effective Sensitivity of SARS-CoV-2 Sample Pooling Based on a Large-Scale Screening Experience: Retrospective Analysis. JMIR Public Health and Surveillance, 10:e54503, 2024.'
 ---
 
 Background:
