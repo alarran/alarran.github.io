@@ -14,20 +14,24 @@ permalink: /publications/
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
+    {% assign pubnum = 0 %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
+      {% assign pubnum = pubnum | plus: 1 %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include archive-single.html number=pubnum %}
     {% endfor %}
   {% endfor %}
 {% else %}
+  {% assign pubnum = 0 %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% assign pubnum = pubnum | plus: 1 %}
+    {% include archive-single.html number=pubnum %}
   {% endfor %}
 {% endif %}
 
