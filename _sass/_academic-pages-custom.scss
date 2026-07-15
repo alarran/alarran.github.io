@@ -335,15 +335,15 @@ a:hover {
   min-height: 240px;
   display: flex;
   align-items: center;
-  background-color: #dce0f0;
+  background-color: #eef0f8;
   background-image:
     linear-gradient(100deg,
-      #dce0f0 0%,
-      #dce0f0 48%,
-      rgba(220, 224, 240, 0.92) 60%,
-      rgba(220, 224, 240, 0.62) 73%,
-      rgba(220, 224, 240, 0.32) 87%,
-      rgba(220, 224, 240, 0.15) 100%),
+      #eef0f8 0%,
+      #eef0f8 48%,
+      rgba(238, 240, 248, 0.92) 60%,
+      rgba(238, 240, 248, 0.62) 73%,
+      rgba(238, 240, 248, 0.32) 87%,
+      rgba(238, 240, 248, 0.15) 100%),
     url('/images/background.jpg');
   background-size: cover, cover;
   background-position: center, right center;
@@ -889,10 +889,10 @@ a:hover {
   .profile-hero {
     background-image:
       linear-gradient(180deg,
-        #dce0f0 0%,
-        #dce0f0 62%,
-        rgba(220, 224, 240, 0.78) 84%,
-        rgba(220, 224, 240, 0.45) 100%),
+        #eef0f8 0%,
+        #eef0f8 62%,
+        rgba(238, 240, 248, 0.78) 84%,
+        rgba(238, 240, 248, 0.45) 100%),
       url('/images/background.jpg');
     background-position: center, center bottom;
   }
