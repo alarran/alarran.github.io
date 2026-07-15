@@ -1,17 +1,39 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "The Backstory"
+excerpt: "The Backstory"
 layout: profile
 redirect_from:
   - /about/
   - /about.html
 ---
-I'm currently a Acting Assistant Professor in the Department of Mechanical Engineering in the <a href="https://www.me.washington.edu/">University of Washington</a>. In 2025, I was a postdoctoral scholar at the <a href="https://dynamicsai.org/">AI Institute in Dynamical Systems</a> working with <a href="https://www.eigensteve.com/">Professor Steve Brunton</a>, specializing in data-driven modeling and control of complex multiphysical systems. My research primarily focuses on data-driven model discovery and the application of machine learning to streamline complex optimization tasks in engineering. 
 
-I graduated with a bachelor's degree in Energy Engineering from the <a href="https://www.uvigo.gal/en">University of Vigo</a> (2019) and a master's degree in Industrial Mathematics from a consortium of institutions -UVigo (Vigo), UDC (A Coruña), USC (Santiago de Compostela), UPM (Madrid) and UC3M (Madrid)- in 2021. In 2024, I completed my Ph.D. working in the Energy Technology Group (<a href="[https://www.uvigo.gal/en](https://www.linkedin.com/company/gteuvigo/posts/?feedView=all)">GTE</a>) at the University of Vigo, focusing on data-driven surrogate models for optimizing enhanced heat transfer applications. 
+<div class="section-card" markdown="1">
 
-Throughout my academic journey, I’ve always looked for opportunities to learn more by collaborating with researchers from all over the world! During my undergrad, I spent an entire year at the <a href="https://www.ntnu.edu/">Norwegian University of Science and Technology</a>, where I worked under the supervision of <a href="https://www.ntnu.edu/employees/armin.hafner)">Armin Hafner</a> and <a href="https://www.linkedin.com/in/yosr-allouche-ph-d-6465831b/?originalSubdomain=fr)">Yosr Allouche</a>. There, I contributed on the development of a cold thermal energy storage, integrated into a R744 supermarket refrigeration system. Later, during my Ph.D. studies, I also completed a three-month research stay at the <a href="https://www.unimelb.edu.au/">University of Melbourne (Australia)</a>., where I collaborated with <a href="https://findanexpert.unimelb.edu.au/profile/742813-richard-sandberg">Richard Sandberg’s group</a>. There, I contributed to the development of surrogate models for microfinned surfaces using the group’s in-house machine learning framework, EVE3, based on evolutionary algorithms. You can find the results of this collaboration in my publications!
+I'm currently an Acting Assistant Professor in the Department of Mechanical Engineering at the [University of Washington](https://www.me.washington.edu/). Before that, in 2025, I was a postdoctoral scholar at the [AI Institute in Dynamic Systems](https://dynamicsai.org/), working with [Professor Steve Brunton](https://www.eigensteve.com/) on data-driven modeling and control of complex multiphysical systems. My research centers on data-driven model discovery and using machine learning to tame the messy, expensive optimization problems that engineering loves to throw at us.
+
+I earned a bachelor's in Energy Engineering from the [University of Vigo](https://www.uvigo.gal/en) (2019) and a master's in Industrial Mathematics (2021) from a consortium of five Spanish institutions — UVigo (Vigo), UDC (A Coruña), USC (Santiago de Compostela), UPM (Madrid), and UC3M (Madrid) — which is a lot of acronyms for one degree. In 2024, I completed my Ph.D. in the Energy Technology Group ([GTE](https://www.linkedin.com/company/gteuvigo/)) at the University of Vigo, developing data-driven surrogate models for optimizing enhanced heat transfer applications.
+
+I've never turned down an excuse to work with researchers abroad. As an undergraduate, I spent a full year at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) under [Armin Hafner](https://www.ntnu.edu/employees/armin.hafner) and [Yosr Allouche](https://www.linkedin.com/in/yosr-allouche-ph-d-6465831b/), where I helped develop a cold thermal energy storage system integrated into an R744 supermarket refrigeration system. Later, during my Ph.D., I spent three months at the [University of Melbourne](https://www.unimelb.edu.au/) with [Richard Sandberg's group](https://findanexpert.unimelb.edu.au/profile/742813-richard-sandberg), building surrogate models for microfinned surfaces using the group's in-house evolutionary-algorithm framework, EVE3. The results of that collaboration live in my publications — feel free to have a look!
+
+</div>
+
+## Highlighted Research
+
+<div class="highlight-grid">
+  <a class="highlight-card" href="https://arxiv.org/abs/2606.11099">
+    <span class="highlight-tag">New preprint · 2026</span>
+    <h3 class="highlight-title">The Fuel Optimizer</h3>
+    <p class="highlight-desc">An inverse-design framework for sustainable aviation fuels that identifies optimal fuel formulations to break the NOₓ–CO trade-off and minimize pollutant emissions, pairing surrogate modeling with genetic-algorithm optimization.</p>
+    <span class="highlight-meta">Read on arXiv →</span>
+  </a>
+  <a class="highlight-card" href="https://arxiv.org/abs/2606.12182">
+    <span class="highlight-tag">New preprint · 2026</span>
+    <h3 class="highlight-title">How Low Can You Go?</h3>
+    <p class="highlight-desc">An active-learning strategy for discovering governing equations in the ultra-low-data limit, using E-SINDy uncertainty to sample only the most informative data for both ODEs and PDEs.</p>
+    <span class="highlight-meta">Read on arXiv →</span>
+  </a>
+</div>
 
 ## News
 
@@ -20,6 +42,8 @@ Throughout my academic journey, I’ve always looked for opportunities to learn 
   <a href="https://www.farodevigo.es/estela/2026/03/01/muevo-curiosidad-motiva-aprender-cosas-127380385.html" class="news-link" target="_blank">Featured in Faro de Vigo</a>
   <p class="news-text">Really grateful for the opportunity to be interviewed by Faro de Vigo, where I reflect on my journey in academia so far. It's a little outside my comfort zone, but I hope sharing my experience can inspire others along the way!</p>
 </div>
+
+<div class="section-card" markdown="1">
 
 ## Awards and Recognitions
 
@@ -57,3 +81,5 @@ Throughout my academic journey, I’ve always looked for opportunities to learn 
     <span class="award-source">Xunta de Galicia — 2018</span>
   </li>
 </ul>
+
+</div>

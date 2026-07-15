@@ -2,6 +2,7 @@
 title: "The Fuel Optimizer: A Data-Driven Numerical Framework for Formulation of Aviation Turbine Fuel"
 collection: publications
 category: manuscripts
+featured: 1
 date: 2026-06-02
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2606.11099'

@@ -15,8 +15,27 @@ permalink: /publications/
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% assign pubnum = 0 %}
+
+    <!-- Featured papers pinned to the top of the category, in `featured` order -->
+    {% assign featured_posts = site.publications | where: "category", category[0] | sort: "featured" %}
+    {% for post in featured_posts %}
+      {% unless post.featured %}
+        {% continue %}
+      {% endunless %}
+      {% assign pubnum = pubnum | plus: 1 %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html number=pubnum %}
+    {% endfor %}
+
+    <!-- Remaining papers, newest first -->
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% if post.featured %}
         {% continue %}
       {% endif %}
       {% assign pubnum = pubnum | plus: 1 %}

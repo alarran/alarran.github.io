@@ -2,6 +2,7 @@
 title: "How Low Can You Go? Active Learning for Sparse Model Discovery in the Ultra-Low-Data Limit"
 collection: publications
 category: manuscripts
+featured: 2
 date: 2026-06-01
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2606.12182'
