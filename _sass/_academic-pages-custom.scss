@@ -342,8 +342,8 @@ a:hover {
       #dce0f0 34%,
       rgba(220, 224, 240, 0.85) 46%,
       rgba(220, 224, 240, 0.45) 60%,
-      rgba(220, 224, 240, 0.12) 78%,
-      rgba(220, 224, 240, 0.00) 100%),
+      rgba(220, 224, 240, 0.18) 78%,
+      rgba(220, 224, 240, 0.10) 100%),
     url('/images/background.jpg');
   background-size: cover, cover;
   background-position: center, right center;
@@ -385,23 +385,36 @@ a:hover {
   justify-content: flex-start;
 }
 
+/* Fine white outline + soft halo so hero text stays crisp over the
+   periwinkle panel and the photo edge */
+%hero-text-outline {
+  text-shadow:
+    -0.4px -0.4px 0 rgba(255, 255, 255, 0.9),
+     0.4px -0.4px 0 rgba(255, 255, 255, 0.9),
+    -0.4px  0.4px 0 rgba(255, 255, 255, 0.9),
+     0.4px  0.4px 0 rgba(255, 255, 255, 0.9),
+     0 0 3px rgba(255, 255, 255, 0.55);
+}
+
 .profile-name {
+  @extend %hero-text-outline;
   font-family: 'DM Serif Display', serif;
   font-size: 24px;
   font-weight: 400;
   margin: 0 0 0.2rem;
   letter-spacing: -0.02em;
   line-height: 1.15;
-  color: #1a1a1a;
+  color: #141414;
   border-bottom: none;
 }
 
 .profile-position {
+  @extend %hero-text-outline;
   font-size: 9.5px;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #3a3a3a;
-  font-weight: 300;
+  color: #2b2b2b;
+  font-weight: 500;
   margin: 0 0 0.3rem;
 }
 
@@ -413,9 +426,10 @@ a:hover {
 }
 
 .profile-interests li {
+  @extend %hero-text-outline;
   font-size: 12px;
-  font-weight: 400;
-  color: #1a1a1a;
+  font-weight: 500;
+  color: #121212;
   line-height: 1.45;
   padding-left: 1rem;
   position: relative;
