@@ -339,11 +339,11 @@ a:hover {
   background-image:
     linear-gradient(100deg,
       #dce0f0 0%,
-      #dce0f0 34%,
-      rgba(220, 224, 240, 0.85) 46%,
-      rgba(220, 224, 240, 0.45) 60%,
-      rgba(220, 224, 240, 0.18) 78%,
-      rgba(220, 224, 240, 0.10) 100%),
+      #dce0f0 48%,
+      rgba(220, 224, 240, 0.92) 60%,
+      rgba(220, 224, 240, 0.62) 73%,
+      rgba(220, 224, 240, 0.32) 87%,
+      rgba(220, 224, 240, 0.15) 100%),
     url('/images/background.jpg');
   background-size: cover, cover;
   background-position: center, right center;
@@ -383,6 +383,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  max-width: 640px;
 }
 
 /* Fine white outline + soft halo so hero text stays crisp over the
