@@ -328,26 +328,35 @@ a:hover {
   padding: 1.5rem 3rem 3rem;
 }
 
-/* Hero: background image with purple overlay */
+/* Hero: solid periwinkle panel where the text sits, fading into the
+   UW Rainier Vista photo (Drumheller Fountain + Mt. Rainier) on the right */
 .profile-hero {
   position: relative;
-  background-image: url('/images/background.jpg');
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  background-color: #dce0f0;
+  background-image:
+    linear-gradient(100deg,
+      #dce0f0 0%,
+      #dce0f0 34%,
+      rgba(220, 224, 240, 0.85) 46%,
+      rgba(220, 224, 240, 0.45) 60%,
+      rgba(220, 224, 240, 0.12) 78%,
+      rgba(220, 224, 240, 0.00) 100%),
+    url('/images/background.jpg');
+  background-size: cover, cover;
+  background-position: center, right center;
+  background-repeat: no-repeat, no-repeat;
+  border-radius: 4px;
   overflow: hidden;
+  box-shadow: 0 1px 4px rgba(45, 48, 90, 0.08);
   margin-bottom: 0;
-}
-
-.profile-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(235, 237, 248, 0.35);
 }
 
 .profile-hero__inner {
   position: relative;
+  width: 100%;
   padding: 1.25rem 2rem 1rem;
 }
 
@@ -364,7 +373,8 @@ a:hover {
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  border: 0.5px solid rgba(246, 237, 210, 0.4);
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(45, 48, 90, 0.15);
   flex-shrink: 0;
   display: block;
 }
@@ -770,6 +780,19 @@ a:hover {
 
   .profile-hero__inner {
     padding: 1rem 1rem 0.75rem;
+  }
+
+  /* On narrow screens the text spans full width, so keep the panel
+     near-solid with only a hint of the photo fading in at the bottom */
+  .profile-hero {
+    background-image:
+      linear-gradient(180deg,
+        #dce0f0 0%,
+        #dce0f0 62%,
+        rgba(220, 224, 240, 0.78) 84%,
+        rgba(220, 224, 240, 0.45) 100%),
+      url('/images/background.jpg');
+    background-position: center, center bottom;
   }
 
   .profile-avatar-sm {
