@@ -24,16 +24,17 @@ author:
   avatar           : "profile.png"
   name             : "Ana Larrañaga"
   pronouns         : # example: "she/her"  
-  position         : "Acting Assistant Professor · Mechanical Engineering"
+  position         : "Acting Assistant Professor · Mechanical Engineering · University of Washington"
+  research_summary : "Data-driven methods for interpretable and generalizable modeling of complex multiphysics, multiscale, and multimodal engineering systems."
   research_interests:
-    - "Machine learning and data science for modeling of complex multiphysics and multiscale systems"
-    - "Model reduction, sparse sensing, physics-based simulations, optimization"
-    - "Expertise in fluid dynamics, thermodynamics, heat transfer, and combustion"
+    - "Scientific model discovery, reduced-order modeling, sparse sensing, and constrained optimization."
+    - "Applications in sustainable aviation and aerodynamics, including combustion, fluid mechanics, and heat transfer."
   bio              : "Data-driven modeling and control of complex systems, particularly multiscale and multiphysics systems, using physics-constrained machine learning"
   location         : "Seattle (WA, USA)"
   employer         : "University of Washington"
   uri              : # URL
-  email            : "alarra@uw.edu" 
+  email            : "alarra@uw.edu"
+  cv               : # Path or URL to your CV, e.g. "/files/Larranaga_CV.pdf" — the CV link appears once this is set
 
   # Academic websites
   academia         : # URL
@@ -191,6 +192,17 @@ exclude:
   - README
   - tmp
   - vendor
+  # Local tools and drafts that shouldn't be published as pages
+  - markdown_generator
+  - scripts
+  - talkmap
+  - talkmap.py
+  - "*.ipynb"
+  - refs.bib
+  - preview.html
+  - CONTRIBUTING.md
+  - README.md
+  - docker-compose.yaml
 keep_files:
   - .git
   - .svn

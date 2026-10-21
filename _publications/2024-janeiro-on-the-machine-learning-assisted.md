@@ -2,7 +2,7 @@
 title: "On the machine learning-assisted identification of the fundamental parameters of nonstandard microfin arrays to assess their heat transfer performance"
 collection: publications
 category: manuscripts
-date: 2024-01-01
+date: 2024-11-01
 venue: 'Engineering Applications of Artificial Intelligence'
 paperurl: 'https://doi.org/10.1016/j.engappai.2024.108945'
 citation: 'A. Larrañaga Janeiro, R. D. Sandberg, J. Martínez, and J. Porteiro. On the machine learning-assisted identification of the fundamental parameters of nonstandard microfin arrays to assess their heat transfer performance. Engineering Applications of Artificial Intelligence, 136:108945, 2024.'

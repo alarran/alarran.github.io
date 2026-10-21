@@ -2,7 +2,7 @@
 title: "Proof of concept of the potential of a machine learning algorithm to extract new information from conventional SARS-CoV-2 rRT-PCR results"
 collection: publications
 category: manuscripts
-date: 2023-01-01
+date: 2023-05-17
 venue: 'Scientific Reports'
 paperurl: 'https://doi.org/10.1038/s41598-023-34882-6'
 citation: 'Jorge Cabrera Alvargonzález, Ana Larrañaga Janeiro, Sonia Pérez Castro, Javier Martínez Torres, Lucía Martínez Lamas, Carlos Daviña Nuñez, Víctor Del Campo-Pérez, Silvia Suarez Luque, Benito Regueiro García, and Jacobo Porteiro Fresco. Proof of concept of the potential of a machine learning algorithm to extract new information from conventional SARS-CoV-2 rRT-PCR results. Scientific Reports, 13(1):7786, 2023.'

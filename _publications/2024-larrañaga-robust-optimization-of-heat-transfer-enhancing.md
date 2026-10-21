@@ -2,7 +2,7 @@
 title: "Robust optimization of heat-transfer-enhancing microtextured surfaces based on machine learning surrogate models"
 collection: publications
 category: manuscripts
-date: 2024-01-01
+date: 2024-02-01
 venue: 'International Communications in Heat and Mass Transfer'
 paperurl: 'https://doi.org/10.1016/j.icheatmasstransfer.2023.107218'
 citation: 'Larrañaga, J. Martínez, J. L. Míguez, and J. Porteiro. Robust optimization of heat-transfer-enhancing microtextured surfaces based on machine learning surrogate models. International Communications in Heat and Mass Transfer, 151:107218, 2024.'

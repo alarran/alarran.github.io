@@ -7,6 +7,7 @@
 {% endif %}
 
 <header class="profile-hero">
+  <div class="profile-banner" aria-hidden="true"></div>
   <div class="profile-hero__inner">
     <div class="profile-name-row">
       {% if author.avatar %}
@@ -19,6 +20,9 @@
         {% if author.position %}
           <p class="profile-position">{{ author.position }}</p>
         {% endif %}
+        {% if author.research_summary %}
+          <p class="profile-summary">{{ author.research_summary }}</p>
+        {% endif %}
         {% if author.research_interests %}
           <ul class="profile-interests">
             {% for interest in author.research_interests %}
@@ -27,23 +31,26 @@
           </ul>
         {% endif %}
         <div class="profile-links">
+          {% if author.cv %}
+            <a href="{% if author.cv contains '://' %}{{ author.cv }}{% else %}{{ base_path }}{{ author.cv }}{% endif %}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i>CV</a>
+          {% endif %}
           {% if author.googlescholar %}
-            <a href="{{ author.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar ai-fw"></i></a>
+            <a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i>Google Scholar</a>
           {% endif %}
           {% if author.orcid %}
-            <a href="{{ author.orcid }}" title="ORCID"><i class="ai ai-orcid ai-fw"></i></a>
+            <a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw" aria-hidden="true"></i>ORCID</a>
           {% endif %}
           {% if author.researchgate %}
-            <a href="{{ author.researchgate }}" title="ResearchGate"><i class="fab fa-fw fa-researchgate"></i></a>
+            <a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i>ResearchGate</a>
           {% endif %}
           {% if author.scopus %}
-            <a href="{{ author.scopus }}" title="Scopus"><i class="ai ai-scopus ai-fw"></i></a>
+            <a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw" aria-hidden="true"></i>Scopus</a>
           {% endif %}
           {% if author.linkedin %}
-            <a href="https://www.linkedin.com/in/{{ author.linkedin }}" title="LinkedIn"><i class="fab fa-fw fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
           {% endif %}
           {% if author.email %}
-            <a href="mailto:{{ author.email }}" title="Email"><i class="fas fa-fw fa-envelope"></i></a>
+            <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>Email</a>
           {% endif %}
         </div>
       </div>
