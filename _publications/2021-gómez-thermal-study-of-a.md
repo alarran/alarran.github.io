@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 date: 2021-01-01
 venue: 'International Journal of Heat and Mass Transfer'
-paperurl: 'https://doi.org/https://doi.org/10.1016/j.ijheatmasstransfer.2021.121530'
+paperurl: 'https://doi.org/10.1016/j.ijheatmasstransfer.2021.121530'
 citation: 'M.A. Gómez, R. Bellas, A. González-Gil, A. Cacabelos, and A. Larrañaga. Thermal study of a passive cooling device operating through a bubble lifting CLTPT of NOVEC 7000 with a two-fluid condenser. International Journal of Heat and Mass Transfer, 177:121530, 2021.'
 ---
 

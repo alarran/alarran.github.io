@@ -225,6 +225,8 @@ def render(fields, etype):
 
     url = fields.get("url", "").strip()
     doi = fields.get("doi", "").strip()
+    # Some BibTeX exports store the DOI as a full URL; don't prefix it twice
+    doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi)
     paperurl = url or (f"https://doi.org/{doi}" if doi else "")
 
     title = clean(fields.get("title", ""))

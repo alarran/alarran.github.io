@@ -25,7 +25,7 @@ author:
   name             : "Ana Larrañaga"
   pronouns         : # example: "she/her"  
   position         : "Acting Assistant Professor · Mechanical Engineering · University of Washington"
-  research_summary : "Data-driven methods for interpretable and generalizable modeling of complex multiphysics, multiscale, and multimodal engineering systems."
+  research_summary : "Data-driven methods for interpretable and generalizable modeling of engineering systems."
   research_interests:
     - "Scientific model discovery, reduced-order modeling, sparse sensing, and constrained optimization."
     - "Applications in sustainable aviation and aerodynamics, including combustion, fluid mechanics, and heat transfer."

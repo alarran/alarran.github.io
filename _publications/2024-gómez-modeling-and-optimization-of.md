@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 date: 2024-01-01
 venue: 'Thermal Science and Engineering Progress'
-paperurl: 'https://doi.org/https://doi.org/10.1016/j.tsep.2024.102658'
+paperurl: 'https://doi.org/10.1016/j.tsep.2024.102658'
 citation: 'M.A. Gómez, J.D. Moya-Rico, A. Larrañaga, N. Cid, and J. Porteiro. Modeling and optimization of triple tube heat exchangers. Theoretical formulation, CFD model and experimental contrast. Thermal Science and Engineering Progress, 52:102658, 2024.'
 ---
 

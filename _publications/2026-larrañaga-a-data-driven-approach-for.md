@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 date: 2026-01-01
 venue: 'Energy Conversion and Management'
-paperurl: 'https://doi.org/https://doi.org/10.1016/j.enconman.2025.120940'
+paperurl: 'https://doi.org/10.1016/j.enconman.2025.120940'
 citation: 'Ana Larrañaga, James R. MacDonald, Steven L. Brunton, Jacobo Porteiro, and Dario Lopez-Pintor. A data-driven approach for predicting the cetane number of renewable and unconventional fuels. Energy Conversion and Management, 350:120940, 2026.'
 ---
 

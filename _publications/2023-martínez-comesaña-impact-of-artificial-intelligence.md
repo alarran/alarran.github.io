@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 date: 2023-01-01
 venue: 'Revista de Psicodidáctica (English ed.)'
-paperurl: 'https://doi.org/https://doi.org/10.1016/j.psicoe.2023.06.002'
+paperurl: 'https://doi.org/10.1016/j.psicoe.2023.06.002'
 citation: 'Miguel Martínez-Comesaña, Xurxo Rigueira-Díaz, Ana Larrañaga-Janeiro, Javier Martínez-Torres, Iago Ocarranza-Prado, and Denis Kreibel. Impact of artificial intelligence on assessment methods in primary and secondary education: Systematic literature review. Revista de Psicodidáctica (English ed.), 28(2):93-103, 2023.'
 ---
 

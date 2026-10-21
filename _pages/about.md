@@ -8,45 +8,41 @@ redirect_from:
   - /about.html
 ---
 
-<div class="section-card" markdown="1">
+<div class="about-grid" id="about" markdown="1">
 
-I'm currently an Acting Assistant Professor in the Department of Mechanical Engineering at the [University of Washington](https://www.me.washington.edu/), and a fellow of the renewed [NSF AI Institute in Dynamic Systems](https://dynamicsai.org/). Before that, in 2025, I was a postdoctoral scholar at the this same NSF Institute, working with [Professor Steve Brunton](https://www.eigensteve.com/). My research centers on data-driven methods for interpretable and generalizable modeling of complex multiphysics, multiscale, and multimodal engineering systems.
+<div class="section-card about-bio" markdown="1">
 
-I earned a bachelor's in Energy Engineering from the [University of Vigo](https://www.uvigo.gal/en) (2019) and a master's in Industrial Mathematics (2021) from a consortium of five Spanish institutions — UVigo (Vigo), UDC (A Coruña), USC (Santiago de Compostela), UPM (Madrid), and UC3M (Madrid) — which is a lot of acronyms for one degree. In 2024, I completed my Ph.D. in the Energy Technology Group ([GTE](https://www.linkedin.com/company/gteuvigo/)) at the University of Vigo, developing data-driven surrogate models for optimizing enhanced heat transfer applications.
+I'm currently an Acting Assistant Professor in the Department of Mechanical Engineering at the [University of Washington](https://www.me.washington.edu/), and a fellow of the renewed [NSF AI Institute in Dynamic Systems](https://dynamicsai.org/). Before that, in 2025, I was a postdoctoral scholar at this same NSF Institute, working with [Professor Steve Brunton](https://www.eigensteve.com/). My research centers on data-driven methods for interpretable and generalizable modeling of complex multiphysics, multiscale, and multimodal engineering systems.
+
+I hold a bachelor's in Energy Engineering from the [University of Vigo](https://www.uvigo.gal/en) (2019) and a master's in Industrial Mathematics (2021) from a consortium of five Spanish institutions — UVigo (Vigo), UDC (A Coruña), USC (Santiago de Compostela), UPM (Madrid), and UC3M (Madrid) — which is a lot of acronyms for one degree. In 2024, I completed my Ph.D. in the Energy Technology Group ([GTE](https://www.linkedin.com/company/gteuvigo/)) at the University of Vigo, developing data-driven surrogate models for optimizing enhanced heat transfer applications.
 
 I've never turned down an excuse to work with researchers abroad. As an undergraduate, I spent a full year at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) under [Armin Hafner](https://www.ntnu.edu/employees/armin.hafner) and [Yosr Allouche](https://www.linkedin.com/in/yosr-allouche-ph-d-6465831b/), where I helped develop a cold thermal energy storage system integrated into an R744 supermarket refrigeration system. Later, during my Ph.D., I spent three months at the [University of Melbourne](https://www.unimelb.edu.au/) with [Richard Sandberg's group](https://findanexpert.unimelb.edu.au/profile/742813-richard-sandberg), building surrogate models for microfinned surfaces using the group's in-house evolutionary-algorithm framework, EVE3. The results of that collaboration live in my publications — feel free to have a look!
 
 </div>
 
-## Highlighted Research
-
-<div class="highlight-grid">
-  <a class="highlight-card" href="https://arxiv.org/abs/2606.11099">
-    <span class="highlight-tag">New preprint · 2026</span>
-    <h3 class="highlight-title">The Fuel Optimizer</h3>
-    <p class="highlight-desc">An inverse-design framework for sustainable aviation fuels that identifies optimal fuel formulations to break the NOₓ–CO trade-off and minimize pollutant emissions, pairing surrogate modeling with genetic-algorithm optimization.</p>
-    <span class="highlight-meta">Read on arXiv →</span>
-  </a>
-  <a class="highlight-card" href="https://arxiv.org/abs/2606.12182">
-    <span class="highlight-tag">New preprint · 2026</span>
-    <h3 class="highlight-title">How Low Can You Go?</h3>
-    <p class="highlight-desc">An active-learning strategy for discovering governing equations in the ultra-low-data limit, using E-SINDy uncertainty to sample only the most informative data for both ODEs and PDEs.</p>
-    <span class="highlight-meta">Read on arXiv →</span>
-  </a>
+<div class="section-card news-panel" markdown="0">
+  <h2>Recent News</h2>
+  <ul class="news-list">
+    <li>
+      <span class="news-date">Jun 2026</span>
+      Two new preprints on arXiv: <a href="https://arxiv.org/abs/2606.11099">The Fuel Optimizer</a> and <a href="https://arxiv.org/abs/2606.12182">How Low Can You Go?</a>
+    </li>
+    <li>
+      <span class="news-date">May 2026</span>
+      Received the BARC Research Excellence Award from the Boeing Advanced Research Collaboration at UW.
+    </li>
+    <li>
+      <span class="news-date">Mar 2026</span>
+      <a href="https://www.farodevigo.es/estela/2026/03/01/muevo-curiosidad-motiva-aprender-cosas-127380385.html" target="_blank" rel="noopener">Featured in Faro de Vigo</a>, in an interview about my path in academia.
+    </li>
+  </ul>
 </div>
 
-## News
-
-<div class="news-item">
-  <p class="news-date">March 2026</p>
-  <a href="https://www.farodevigo.es/estela/2026/03/01/muevo-curiosidad-motiva-aprender-cosas-127380385.html" class="news-link" target="_blank">Featured in Faro de Vigo</a>
-  <p class="news-text">Really grateful for the opportunity to be interviewed by Faro de Vigo, where I reflect on my journey in academia so far. It's a little outside my comfort zone, but I hope sharing my experience can inspire others along the way!</p>
 </div>
 
-<div class="section-card" markdown="1">
+## Awards and Recognitions {#awards}
 
-## Awards and Recognitions
-
+<div class="section-card">
 <ul class="award-list">
   <li>
     <span class="award-title">BARC Research Excellence Award</span> as a senior member of the Data-Driven Engineering Enabling R&amp;D Team
@@ -81,5 +77,33 @@ I've never turned down an excuse to work with researchers abroad. As an undergra
     <span class="award-source">Xunta de Galicia — 2018</span>
   </li>
 </ul>
-
 </div>
+
+## Publications {#publications}
+
+<p class="subsection-label">Highlighted research</p>
+
+<div class="highlight-grid">
+  <a class="highlight-card" href="https://arxiv.org/abs/2606.11099">
+    <span class="highlight-tag">New preprint · 2026</span>
+    <h3 class="highlight-title">The Fuel Optimizer</h3>
+    <p class="highlight-desc">An inverse-design framework for sustainable aviation fuels that identifies optimal fuel formulations to break the NOₓ–CO trade-off and minimize pollutant emissions, pairing surrogate modeling with genetic-algorithm optimization.</p>
+    <span class="highlight-meta">Read on arXiv →</span>
+  </a>
+  <a class="highlight-card" href="https://arxiv.org/abs/2606.12182">
+    <span class="highlight-tag">New preprint · 2026</span>
+    <h3 class="highlight-title">How Low Can You Go?</h3>
+    <p class="highlight-desc">An active-learning strategy for discovering governing equations in the ultra-low-data limit, using E-SINDy uncertainty to sample only the most informative data for both ODEs and PDEs.</p>
+    <span class="highlight-meta">Read on arXiv →</span>
+  </a>
+</div>
+
+{% include home/recent-publications.html %}
+
+## Teaching {#teaching}
+
+{% include home/teaching.html %}
+
+## Talks {#talks}
+
+{% include home/talks.html %}
