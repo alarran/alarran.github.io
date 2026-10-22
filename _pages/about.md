@@ -1,7 +1,6 @@
 ---
 permalink: /
-title: "About"
-excerpt: "About"
+title: "Ana Larrañaga"
 layout: profile
 redirect_from:
   - /about/
@@ -12,11 +11,60 @@ redirect_from:
 
 <div class="section-card about-bio" markdown="1">
 
-I'm currently an Acting Assistant Professor in the Department of Mechanical Engineering at the [University of Washington](https://www.me.washington.edu/), and a fellow of the renewed [NSF AI Institute in Dynamic Systems](https://dynamicsai.org/). Before that, in 2025, I was a postdoctoral scholar at this same NSF Institute, working with [Professor Steve Brunton](https://www.eigensteve.com/). My research centers on data-driven methods for interpretable and generalizable modeling of complex multiphysics, multiscale, and multimodal engineering systems.
+I'm currently an Acting Assistant Professor in the Department of Mechanical Engineering at the [University of Washington](https://www.me.washington.edu/), and a fellow of the renewed [NSF AI Institute in Dynamic Systems](https://dynamicsai.org/). My research centers on data-driven methods for interpretable and generalizable modeling of complex multiphysics, multiscale, and multimodal engineering systems.
 
-I hold a bachelor's in Energy Engineering from the [University of Vigo](https://www.uvigo.gal/en) (2019) and a master's in Industrial Mathematics (2021) from a consortium of five Spanish institutions — UVigo (Vigo), UDC (A Coruña), USC (Santiago de Compostela), UPM (Madrid), and UC3M (Madrid) — which is a lot of acronyms for one degree. In 2024, I completed my Ph.D. in the Energy Technology Group ([GTE](https://www.linkedin.com/company/gteuvigo/)) at the University of Vigo, developing data-driven surrogate models for optimizing enhanced heat transfer applications.
+<p class="subsection-label">Academic positions &amp; experience</p>
 
-I've never turned down an excuse to work with researchers abroad. As an undergraduate, I spent a full year at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) under [Armin Hafner](https://www.ntnu.edu/employees/armin.hafner) and [Yosr Allouche](https://www.linkedin.com/in/yosr-allouche-ph-d-6465831b/), where I helped develop a cold thermal energy storage system integrated into an R744 supermarket refrigeration system. Later, during my Ph.D., I spent three months at the [University of Melbourne](https://www.unimelb.edu.au/) with [Richard Sandberg's group](https://findanexpert.unimelb.edu.au/profile/742813-richard-sandberg), building surrogate models for microfinned surfaces using the group's in-house evolutionary-algorithm framework, EVE3. The results of that collaboration live in my publications — feel free to have a look!
+<div class="entry-list">
+  <div class="entry">
+    <div class="entry-meta">Feb 2026 &ndash; Present</div>
+    <div class="entry-body">
+      <p class="entry-title">Acting Assistant Professor, Mechanical Engineering <span class="entry-current">Current</span></p>
+      <p class="entry-detail">University of Washington &middot; Seattle, WA</p>
+      <p class="entry-detail">Fellow, NSF AI Institute in Dynamic Systems</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="entry-meta">Feb 2025 &ndash; Feb 2026</div>
+    <div class="entry-body">
+      <p class="entry-title">Postdoctoral Scholar, Mechanical Engineering &amp; NSF AI Institute in Dynamic Systems</p>
+      <p class="entry-detail">University of Washington &middot; Seattle, WA</p>
+      <p class="entry-detail">PI: Steven L. Brunton</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="entry-meta">Jul 2024 &ndash; Jan 2025</div>
+    <div class="entry-body">
+      <p class="entry-title">Postdoctoral Researcher, Mechanical Engineering &mdash; Thermal Engines and Fluids</p>
+      <p class="entry-detail">University of Vigo &middot; Vigo, Spain</p>
+      <p class="entry-detail">PI: Jacobo Porteiro</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="entry-meta">Oct 2020 &ndash; Jul 2024</div>
+    <div class="entry-body">
+      <p class="entry-title">Ph.D. Student, Mechanical Engineering &mdash; Thermal Engines and Fluids</p>
+      <p class="entry-detail">University of Vigo &middot; Vigo, Spain</p>
+      <p class="entry-detail">Advisor: Jacobo Porteiro</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="entry-meta">Sep 2019 &ndash; Oct 2020</div>
+    <div class="entry-body">
+      <p class="entry-title">Junior Researcher, Mechanical Engineering &mdash; Thermal Engines and Fluids</p>
+      <p class="entry-detail">University of Vigo &middot; Vigo, Spain</p>
+      <p class="entry-detail">Advisor: David Patiño</p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="entry-meta">Jan 2019 &ndash; Jun 2019</div>
+    <div class="entry-body">
+      <p class="entry-title">Junior Researcher, Energy and Process Engineering and Fluids</p>
+      <p class="entry-detail">Norwegian University of Science and Technology &middot; Trondheim, Norway</p>
+      <p class="entry-detail">Advisor: Armin Hafner</p>
+    </div>
+  </div>
+</div>
 
 </div>
 
@@ -127,3 +175,25 @@ I've never turned down an excuse to work with researchers abroad. As an undergra
 ## Talks {#talks}
 
 {% include home/talks.html %}
+
+## Contact {#contact}
+
+<div class="section-card contact-card">
+  <div class="contact-intro">
+    <p>I'm always happy to connect and discuss research ideas, potential collaborations, or questions about my work. I also welcome students who are curious about research and interested in getting involved.</p>
+    <p>Whether you have an idea in mind or just want to learn more, I'd be happy to chat. Feel free to reach out via email!</p>
+    <a class="contact-button" href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i>Email me</a>
+  </div>
+  <dl class="contact-details">
+    <dt>Email</dt>
+    <dd><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></dd>
+    <dt>Address</dt>
+    <dd>Department of Mechanical Engineering<br>University of Washington<br>Seattle, WA 98195</dd>
+    <dt>Online</dt>
+    <dd>
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a> &middot;
+      <a href="{{ site.author.orcid }}">ORCID</a> &middot;
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+    </dd>
+  </dl>
+</div>

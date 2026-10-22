@@ -6,7 +6,8 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
+{% comment %} The home page shows just the site title (your name), other pages "Page - Name" {% endcomment %}
+{% if page.title and page.url != "/" %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
 

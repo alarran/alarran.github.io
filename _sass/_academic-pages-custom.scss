@@ -558,6 +558,33 @@ html {
   margin-top: 1.75rem;
 }
 
+/* Positions list under the bio, set off from the paragraph by a thin rule */
+.profile-content .about-bio .subsection-label {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.12);
+}
+
+.about-bio .entry {
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.entry-current {
+  display: inline-block;
+  vertical-align: 0.1em;
+  margin-left: 0.4rem;
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  padding: 0 0.45rem;
+  border-radius: 999px;
+  color: #2b6f4a;
+  background: rgba(58, 145, 100, 0.14);
+}
+
 .profile-content hr {
   border: none;
   border-top: 0.5px solid rgba(0, 0, 0, 0.15);
@@ -1036,6 +1063,66 @@ html:has(.pub-dialog[open]) {
   }
 }
 
+/* ─── Contact (home page) ────────────────────────────────────── */
+/* Short invitation + button on the left, contact details on the right */
+
+.contact-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: #5a5f87;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 1.15rem;
+  transition: background 0.15s ease;
+}
+
+.contact-button:hover {
+  color: #fff;
+  background: #444870;
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.65rem 1.25rem;
+  margin: 0;
+}
+
+.contact-details dt {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #5a5f87;
+  padding-top: 0.15rem;
+  margin: 0;
+}
+
+.contact-details dd {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+@media (max-width: 680px) {
+  .contact-card {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
 /* ─── Section cards (home page) ──────────────────────────────── */
 /* A soft square around a section so each block reads as its own unit */
 .section-card {
@@ -1162,7 +1249,8 @@ html:has(.pub-dialog[open]) {
   }
 
   /* Stack the date above the details */
-  .entry {
+  .entry,
+  .about-bio .entry {
     grid-template-columns: 1fr;
     gap: 0.2rem;
   }
