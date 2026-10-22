@@ -6,9 +6,9 @@ html {
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   color: #1a1a1a;
@@ -19,8 +19,8 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 600;
   letter-spacing: -0.01em;
   line-height: 1.2;
 }
@@ -54,7 +54,7 @@ a:hover {
 }
 
 .site-title {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Source Serif 4', Georgia, serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: -0.01em;
@@ -95,7 +95,7 @@ a:hover {
 /* ─── Sidebar / author profile ───────────────────────────────── */
 
 .sidebar {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
 .author__avatar img {
@@ -105,7 +105,7 @@ a:hover {
 }
 
 .author__name {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Source Serif 4', Georgia, serif;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -0.01em;
@@ -145,15 +145,15 @@ a:hover {
 /* ─── Page content ───────────────────────────────────────────── */
 
 .page__content {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
 }
 
-.page__content h1 { font-size: 26px; margin-bottom: 0.5rem; }
-.page__content h2 { font-size: 26px; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+.page__content h1 { font-size: 24px; margin-bottom: 0.5rem; }
+.page__content h2 { font-size: 24px; margin-top: 2.5rem; margin-bottom: 0.75rem; }
 .page__content h3 {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -182,9 +182,9 @@ a:hover {
 }
 
 .list__item .archive__item-title {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   margin: 0 0 0.35rem;
   line-height: 1.4;
 }
@@ -216,7 +216,7 @@ a:hover {
 /* ─── Buttons ────────────────────────────────────────────────── */
 
 .btn {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.06em;
@@ -259,14 +259,14 @@ a:hover {
 }
 
 .page__footer footer {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   color: #777;
   letter-spacing: 0.02em;
 }
 
 .page__footer-copyright {
-  font-size: 13px;
+  font-size: 12px;
   color: #777;
 }
 
@@ -289,7 +289,7 @@ a:hover {
 
 .stat strong {
   display: block;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Source Serif 4', Georgia, serif;
   font-size: 26px;
   font-weight: 400;
   color: #1a1a1a;
@@ -384,18 +384,18 @@ a:hover {
 }
 
 .profile-name {
-  font-family: 'DM Serif Display', serif;
-  font-size: 40px;
-  font-weight: 400;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 36px;
+  font-weight: 600;
   margin: 0 0 0.3rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
   line-height: 1.15;
   color: #141414;
   border-bottom: none;
 }
 
 .profile-position {
-  font-size: 13px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #555;
@@ -420,7 +420,7 @@ a:hover {
 }
 
 .profile-interests li {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: #2b2b2b;
   line-height: 1.45;
@@ -450,7 +450,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: #1a1a1a;
   border-bottom: 1px solid transparent;
@@ -459,7 +459,7 @@ a:hover {
 }
 
 .profile-links a i {
-  font-size: 15px;
+  font-size: 14px;
   color: #5a5f87;
 }
 
@@ -489,7 +489,7 @@ a:hover {
 }
 
 .profile-tabs a {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: #555;
   white-space: nowrap;
@@ -516,16 +516,16 @@ a:hover {
 /* ─── Profile content area ───────────────────────────────────── */
 
 .profile-content p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.6;
   color: #1a1a1a;
   margin-bottom: 1rem;
 }
 
 .profile-content h2 {
-  font-size: 26px;
-  font-family: 'DM Serif Display', serif;
-  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 600;
   color: #1a1a1a;
   margin: 2.5rem 0 0.75rem;
   text-transform: none;
@@ -581,7 +581,7 @@ html {
 }
 
 .entry-meta {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: #5a5f87;
   line-height: 1.5;
@@ -589,8 +589,8 @@ html {
 }
 
 .profile-content .entry-title {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 1.4;
   color: #1a1a1a;
   margin: 0 0 0.3rem;
@@ -606,19 +606,19 @@ html {
 }
 
 .profile-content .entry-detail {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
   color: #555;
   margin: 0 0 0.2rem;
 }
 
 .entry-detail strong {
-  font-weight: 500;
+  font-weight: 600;
   color: #1a1a1a;
 }
 
 .profile-content .entry-links {
-  font-size: 14px;
+  font-size: 13px;
   margin: 0.35rem 0 0;
 }
 
@@ -645,7 +645,7 @@ html {
 }
 
 .profile-content .scholar-link {
-  font-size: 15px;
+  font-size: 14px;
   margin: 0.9rem 0 0;
   padding-top: 0.9rem;
   border-top: 0.5px solid rgba(0, 0, 0, 0.12);
@@ -700,7 +700,7 @@ html:has(.pub-dialog[open]) {
 }
 
 .pub-dialog p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.6;
   margin: 0 0 0.75rem;
 }
@@ -720,25 +720,25 @@ html:has(.pub-dialog[open]) {
 }
 
 .pub-dialog__title {
-  font-family: 'DM Serif Display', serif;
-  font-size: 24px;
-  font-weight: 400;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
   line-height: 1.25;
   margin: 0 0 0.6rem;
 }
 
 .pub-dialog .pub-dialog__authors {
-  font-size: 14px;
+  font-size: 13px;
   color: #555;
 }
 
 .pub-dialog__authors strong {
-  font-weight: 500;
+  font-weight: 600;
   color: #1a1a1a;
 }
 
 .pub-dialog .pub-dialog__citation {
-  font-size: 13px;
+  font-size: 12px;
   color: #555;
   background: #f4f5fa;
   border-radius: 4px;
@@ -747,7 +747,7 @@ html:has(.pub-dialog[open]) {
 
 .pub-dialog .pub-dialog__links {
   margin: 1.25rem 0 0;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .pub-dialog__links a {
@@ -766,7 +766,7 @@ html:has(.pub-dialog[open]) {
   }
 
   .pub-dialog__title {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
@@ -777,19 +777,19 @@ html:has(.pub-dialog[open]) {
 }
 
 .course-list li {
-  font-size: 16px;
+  font-size: 15px;
   color: #1a1a1a;
   line-height: 1.6;
   margin-bottom: 0.2rem;
 }
 
 .course-list li strong {
-  font-weight: 500;
+  font-weight: 600;
   color: #1a1a1a;
 }
 
 .course-hours {
-  font-size: 14px;
+  font-size: 13px;
   color: #555;
   font-weight: 400;
 }
@@ -810,41 +810,124 @@ html:has(.pub-dialog[open]) {
 }
 
 .profile-content .news-panel h2 {
-  font-size: 22px;
-  margin: 0 0 0.6rem;
+  font-size: 20px;
+  margin: 0 0 1rem;
 }
 
-.news-list {
+/* Timeline: a thin vertical line with a dot per item, colored by type */
+.news-timeline {
+  position: relative;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.news-list li {
-  font-size: 15px;
-  line-height: 1.45;
-  color: #1a1a1a;
-  padding: 0.7rem 0;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.12);
+.news-timeline::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 0.45rem;
+  bottom: 0.45rem;
+  width: 1px;
+  background: rgba(90, 95, 135, 0.25);
 }
 
-.news-list li:first-child {
-  padding-top: 0;
+.news-item {
+  position: relative;
+  padding: 0 0 1.2rem 1.4rem;
 }
 
-.news-list li:last-child {
+.news-item:last-child {
   padding-bottom: 0;
-  border-bottom: none;
+}
+
+.news-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #5a5f87;
+  box-shadow: 0 0 0 3px #eef0f8;
+}
+
+.news-item__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.3rem;
 }
 
 .news-date {
-  display: block;
   font-size: 12px;
-  color: #5a5f87;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin: 0 0 0.2rem;
+  color: #5a5f87;
+}
+
+.news-type {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  padding: 0 0.45rem;
+  border-radius: 999px;
+  color: #5a5f87;
+  background: rgba(90, 95, 135, 0.12);
+}
+
+.news-item--award::before {
+  background: #c9962d;
+}
+
+.news-item--award .news-type {
+  color: #8a6114;
+  background: rgba(201, 150, 45, 0.16);
+}
+
+.news-item--press::before {
+  background: #3a8a91;
+}
+
+.news-item--press .news-type {
+  color: #2b6f75;
+  background: rgba(58, 138, 145, 0.14);
+}
+
+.profile-content .news-item__text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
+}
+
+.news-item__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+/* Small pill buttons */
+.news-item__links a {
+  font-size: 12px;
   font-weight: 500;
+  line-height: 1.6;
+  color: #3f4470;
+  background: #fff;
+  border: 0.5px solid rgba(90, 95, 135, 0.35);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.news-item__links a:hover {
+  color: #fff;
+  background: #5a5f87;
+  border-color: #5a5f87;
 }
 
 @media (max-width: 860px) {
@@ -864,7 +947,7 @@ html:has(.pub-dialog[open]) {
 .award-list li {
   padding: 0.7rem 0;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.12);
-  font-size: 16px;
+  font-size: 15px;
   color: #1a1a1a;
   line-height: 1.5;
 }
@@ -874,12 +957,12 @@ html:has(.pub-dialog[open]) {
 }
 
 .award-title {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .award-source {
   display: block;
-  font-size: 14px;
+  font-size: 13px;
   color: #555;
   margin-top: 0.15rem;
 }
@@ -923,9 +1006,9 @@ html:has(.pub-dialog[open]) {
 }
 
 .profile-content .highlight-title {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-family: 'Inter', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 1.35;
   letter-spacing: 0;
   margin: 0 0 0.4rem;
@@ -933,7 +1016,7 @@ html:has(.pub-dialog[open]) {
 }
 
 .profile-content .highlight-desc {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.55;
   color: #3a3a3a;
@@ -942,7 +1025,7 @@ html:has(.pub-dialog[open]) {
 
 .highlight-meta {
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: #5a5f87;
 }
@@ -1016,8 +1099,8 @@ html:has(.pub-dialog[open]) {
 
 .single-profile-wrap h1,
 .single-profile-wrap .page__title {
-  font-size: 26px !important;
-  font-weight: 400 !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
   margin-bottom: 0.6rem !important;
   line-height: 1.25 !important;
   letter-spacing: -0.01em;
@@ -1025,7 +1108,7 @@ html:has(.pub-dialog[open]) {
 }
 
 .single-meta {
-  font-size: 14px;
+  font-size: 13px;
   color: #555;
   margin: 0 0 0 ;
   padding-bottom: 1.25rem;
@@ -1033,7 +1116,7 @@ html:has(.pub-dialog[open]) {
 }
 
 .single-citation {
-  font-size: 14px;
+  font-size: 13px;
   color: #555;
   margin-top: 2rem;
   padding-top: 1rem;
@@ -1067,11 +1150,11 @@ html:has(.pub-dialog[open]) {
   }
 
   .profile-name {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .profile-content h2 {
-    font-size: 22px;
+    font-size: 21px;
   }
 
   .profile-tabs a {
@@ -1085,7 +1168,7 @@ html:has(.pub-dialog[open]) {
   }
 
   .single-profile-wrap .page__title {
-    font-size: 22px !important;
+    font-size: 21px !important;
   }
 
   .single-profile-wrap {

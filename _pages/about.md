@@ -22,20 +22,40 @@ I've never turned down an excuse to work with researchers abroad. As an undergra
 
 <div class="section-card news-panel" markdown="0">
   <h2>Recent News</h2>
-  <ul class="news-list">
-    <li>
-      <span class="news-date">Jun 2026</span>
-      Two new preprints on arXiv: <a href="https://arxiv.org/abs/2606.11099">The Fuel Optimizer</a> and <a href="https://arxiv.org/abs/2606.12182">How Low Can You Go?</a>
+  <!-- Newest first. Type classes: news-item--paper, news-item--award, news-item--press -->
+  <ol class="news-timeline">
+    <li class="news-item news-item--paper">
+      <div class="news-item__head">
+        <span class="news-date">Jun 2026</span>
+        <span class="news-type">Preprints</span>
+      </div>
+      <p class="news-item__text">Two new preprints: inverse design of sustainable aviation fuels, and equation discovery with very little data.</p>
+      <div class="news-item__links">
+        <a href="https://arxiv.org/abs/2606.11099">The Fuel Optimizer →</a>
+        <a href="https://arxiv.org/abs/2606.12182">How Low Can You Go? →</a>
+      </div>
     </li>
-    <li>
-      <span class="news-date">May 2026</span>
-      Received the BARC Research Excellence Award from the Boeing Advanced Research Collaboration at UW.
+    <li class="news-item news-item--award">
+      <div class="news-item__head">
+        <span class="news-date">May 2026</span>
+        <span class="news-type">Award</span>
+      </div>
+      <p class="news-item__text">BARC Research Excellence Award from the Boeing Advanced Research Collaboration at UW, with the Data-Driven Engineering Enabling R&amp;D Team.</p>
+      <div class="news-item__links">
+        <a href="#awards">All awards →</a>
+      </div>
     </li>
-    <li>
-      <span class="news-date">Mar 2026</span>
-      <a href="https://www.farodevigo.es/estela/2026/03/01/muevo-curiosidad-motiva-aprender-cosas-127380385.html" target="_blank" rel="noopener">Featured in Faro de Vigo</a>, in an interview about my path in academia.
+    <li class="news-item news-item--press">
+      <div class="news-item__head">
+        <span class="news-date">Mar 2026</span>
+        <span class="news-type">Press</span>
+      </div>
+      <p class="news-item__text">Interviewed by Faro de Vigo about my path in academia and what keeps me curious.</p>
+      <div class="news-item__links">
+        <a href="https://www.farodevigo.es/estela/2026/03/01/muevo-curiosidad-motiva-aprender-cosas-127380385.html">Read the interview →</a>
+      </div>
     </li>
-  </ul>
+  </ol>
 </div>
 
 </div>
