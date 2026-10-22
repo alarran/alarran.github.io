@@ -19,15 +19,15 @@
 
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-  /* Palette: same ink and cream as the rest of the site */
+  /* Same ink as the site's accents */
   var INK = '90, 95, 135';      /* #5a5f87 */
-  var CREAM = '246, 237, 210';  /* #F6EDD2 */
 
   var H_STEP = 0.1;           /* solver time step */
-  var SIM_SPEED = 0.45;       /* KS time units per second of wall clock */
+  var SIM_SPEED = 0.3;        /* KS time units per second of wall clock */
   var CAPTURE_EVERY = 6;      /* steps between stored isochrones */
-  var SPACING = 22;           /* px between successive isochrones */
-  var PX_PER_UNIT = 15;       /* horizontal px per KS length unit */
+  var SPACING = 32;           /* px between successive isochrones */
+  var PX_PER_UNIT = 10;       /* horizontal px per KS length unit (cells are ~9 units wide) */
+  var CONTENT_WIDTH = 1040;   /* matches .profile-container max-width */
 
   var W, H, dpr, N, Lx, k, E, E2, Q, f1, f2, f3;
   var v, phiPrev, phiCur, history, stepCount, simTime, accum, lastFrame, rafId;
@@ -210,9 +210,10 @@
 
     /* Domain length sets how many cells span the screen; below ~40 the dynamics
        stop being chaotic and settle into a steady pattern */
-    Lx = Math.max(44, Math.min(120, W / PX_PER_UNIT));
-    N = Lx > 64 ? 256 : 128;
-    amp = 0.75 * W / Lx;
+    Lx = Math.max(44, Math.min(200, W / PX_PER_UNIT));
+    /* Keep the grid spacing below ~0.4 so the cusps stay resolved */
+    N = Lx > 100 ? 512 : Lx > 50 ? 256 : 128;
+    amp = W / Lx;
 
     fftInit(N);
     setupCoefficients();
@@ -235,7 +236,7 @@
 
     /* Let the instability saturate into the chaotic cellular state, then fill
        the screen with isochrones before the first frame is shown */
-    var warm = Math.round(60 / H_STEP);
+    var warm = Math.round(40 / H_STEP);
     for (var i = 0; i < warm; i++) step();
     frontShape(phiCur);
     var fill = Math.ceil(frontY / SPACING + 2) * CAPTURE_EVERY;
@@ -266,39 +267,44 @@
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, W, H);
 
-    /* Warm products just behind the front */
-    var glow = ctx.createLinearGradient(0, frontY - 180, 0, frontY + 30);
-    glow.addColorStop(0, 'rgba(' + CREAM + ', 0)');
-    glow.addColorStop(1, 'rgba(' + CREAM + ', 0.75)');
-    ctx.beginPath();
-    tracePath(phiCur, frontY, mix, phiPrev);
-    ctx.lineTo(W, frontY - 260);
-    ctx.lineTo(0, frontY - 260);
-    ctx.closePath();
-    ctx.fillStyle = glow;
-    ctx.fill();
-
     /* Isochrones: past front positions, fading as they drift into the burnt gas */
+    ctx.globalCompositeOperation = 'source-over';
     ctx.lineJoin = 'round';
-    ctx.lineWidth = 1;
+    ctx.lineWidth = 0.75;
     for (var i = 0; i < history.length; i++) {
       var h = history[i];
       var base = frontY - (now - h.t) * speed;
       var f = 1 - base / frontY;
       if (f >= 1) continue;
-      var alpha = 0.3 * Math.pow(1 - Math.max(f, 0), 1.8);
+      var alpha = 0.16 * Math.pow(1 - Math.max(f, 0), 1.5);
       ctx.beginPath();
       tracePath(h.phi, base);
       ctx.strokeStyle = 'rgba(' + INK + ', ' + alpha.toFixed(3) + ')';
       ctx.stroke();
     }
 
-    /* The flame front itself */
+    /* The flame front itself, only slightly stronger than its history */
     ctx.beginPath();
     tracePath(phiCur, frontY, mix, phiPrev);
-    ctx.lineWidth = 1.4;
-    ctx.strokeStyle = 'rgba(' + INK + ', 0.55)';
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = 'rgba(' + INK + ', 0.3)';
     ctx.stroke();
+
+    /* Quiet the lines behind the text column so they live mostly in the margins */
+    var col = Math.min(W, CONTENT_WIDTH);
+    var left = (W - col) / 2, soft = Math.min(160, col / 4);
+    var fade = W < 680 ? 0.45 : 0.7;
+    var mask = ctx.createLinearGradient(0, 0, W, 0);
+    mask.addColorStop(0, 'rgba(0, 0, 0, 0)');
+    mask.addColorStop(Math.max(left / W, 0), 'rgba(0, 0, 0, 0)');
+    mask.addColorStop((left + soft) / W, 'rgba(0, 0, 0, ' + fade + ')');
+    mask.addColorStop((W - left - soft) / W, 'rgba(0, 0, 0, ' + fade + ')');
+    mask.addColorStop(Math.min((W - left) / W, 1), 'rgba(0, 0, 0, 0)');
+    mask.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.globalCompositeOperation = 'destination-out';
+    ctx.fillStyle = mask;
+    ctx.fillRect(0, 0, W, H);
+    ctx.globalCompositeOperation = 'source-over';
   }
 
   /* ─── Animation loop ──────────────────────────────────────────── */
