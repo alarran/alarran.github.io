@@ -12,15 +12,15 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   color: #1a1a1a;
-  /* Transparent so the flame-front canvas (z-index -1) shows over the html background */
+  /* Transparent so the background canvas (z-index -1) shows over the html background */
   background-color: transparent !important;
   /* clip (not hidden) so the sticky tab bar still sticks to the viewport */
   overflow-x: clip;
   min-height: 100vh;
 }
 
-/* Animated flame-front background, drawn by assets/js/flame-front.js */
-.flame-bg {
+/* Animated double-gyre background, drawn by assets/js/double-gyre.js */
+.flow-bg {
   position: fixed;
   inset: 0;
   width: 100%;
@@ -31,7 +31,7 @@ body {
   transition: opacity 1.5s ease;
 }
 
-.flame-bg.is-ready {
+.flow-bg.is-ready {
   opacity: 1;
 }
 
