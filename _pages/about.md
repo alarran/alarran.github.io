@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="section-card about-bio" markdown="1">
 
-I'm currently an Acting Assistant Professor in the Department of Mechanical Engineering at the [University of Washington](https://www.me.washington.edu/), and a fellow of the renewed [NSF AI Institute in Dynamic Systems](https://dynamicsai.org/). My research centers on data-driven methods for interpretable and generalizable modeling of complex multiphysics, multiscale, and multimodal engineering systems.
+I'm currently an Acting Assistant Professor in the Department of Mechanical Engineering at the [University of Washington](https://www.me.washington.edu/) and a fellow of the renewed [NSF AI Institute in Dynamic Systems](https://dynamicsai.org/). My research focuses on making the most of what we know (and what we can measure) about complex multiphysics, multiscale, and multimodal engineering systems. I develop interpretable and generalizable data-driven methods for scientific model discovery, reduced-order modeling, sparse sensing, and constrained optimization. Much of my work is motivated by problems in sustainable aviation and aerodynamics, so I spend a lot of time thinking about combustion, fluid mechanics, and heat transfer.
 
 <p class="subsection-label">Academic positions &amp; experience</p>
 

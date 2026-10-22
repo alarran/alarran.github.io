@@ -558,6 +558,32 @@ html {
   margin-top: 1.75rem;
 }
 
+/* Research focus bullets under the bio paragraph */
+.profile-content .research-focus {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-focus li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: 15px;
+  line-height: 1.55;
+  margin-bottom: 0.35rem;
+}
+
+.research-focus li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #5a5f87;
+}
+
 /* Positions list under the bio, set off from the paragraph by a thin rule */
 .profile-content .about-bio .subsection-label {
   margin-top: 1.5rem;
