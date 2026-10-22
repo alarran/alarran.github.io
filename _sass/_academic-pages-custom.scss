@@ -409,7 +409,8 @@ a:hover {
   font-weight: 500;
   line-height: 1.45;
   color: #121212;
-  margin: 0.4rem 0 0;
+  /* Spacing above comes from .profile-position; flex items don't collapse margins */
+  margin: 0;
 }
 
 /* Research interests */
@@ -443,7 +444,7 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem 1.25rem;
-  margin-top: 0.9rem;
+  margin-top: 0.75rem;
 }
 
 .profile-links a {
@@ -527,7 +528,7 @@ a:hover {
   font-family: 'Source Serif 4', Georgia, serif;
   font-weight: 600;
   color: #1a1a1a;
-  margin: 2.5rem 0 0.75rem;
+  margin: 1.75rem 0 0.6rem;
   text-transform: none;
 }
 

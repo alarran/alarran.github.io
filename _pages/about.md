@@ -111,40 +111,70 @@ I'm currently an Acting Assistant Professor in the Department of Mechanical Engi
 ## Awards and Recognitions {#awards}
 
 <div class="section-card">
-<ul class="award-list">
-  <li>
-    <span class="award-title">BARC Research Excellence Award</span> as a senior member of the Data-Driven Engineering Enabling R&amp;D Team
-    <span class="award-source">Boeing Advanced Research Collaboration, University of Washington — 2026</span>
-  </li>
-  <li>
-    <span class="award-title">Second Runner-up, National Awards for University Education Graduates</span> (Academic year 2018–2019)
-    <span class="award-source">Ministry of Science, Innovation, and Universities, Spain — 2025</span>
-  </li>
-  <li>
-    <span class="award-title">Runner-up, Extraordinary Engineering Doctoral Award</span>
-    <span class="award-source">University of Vigo — 2025</span>
-  </li>
-  <li>
-    <span class="award-title">Recognition for Young Researchers of the EEI</span>
-    <span class="award-source">Faculty of Industrial Engineering — 2021</span>
-  </li>
-  <li>
-    <span class="award-title">Academic Excellence Award</span> for students beginning doctoral studies (2020/2021)
-    <span class="award-source">University of Vigo — 2020</span>
-  </li>
-  <li>
-    <span class="award-title">Extraordinary End-of-Degree Award</span>
-    <span class="award-source">University of Vigo — 2019</span>
-  </li>
-  <li>
-    <span class="award-title">End-of-Degree Award</span>
-    <span class="award-source">Xunta de Galicia — 2019</span>
-  </li>
-  <li>
-    <span class="award-title">Academic Excellence Award</span> for undergraduate students with the best grades in the Galician University System (2017/2018)
-    <span class="award-source">Xunta de Galicia — 2018</span>
-  </li>
-</ul>
+  <p class="subsection-label">Research &amp; doctoral</p>
+  <div class="entry-list">
+    <div class="entry">
+      <div class="entry-meta">2026</div>
+      <div class="entry-body">
+        <p class="entry-title">BARC Research Excellence Award</p>
+        <p class="entry-detail">As a senior member of the Data-Driven Engineering Enabling R&amp;D Team</p>
+        <p class="entry-detail"><a href="https://www.barc.uw.edu/">Boeing Advanced Research Collaboration</a>, University of Washington</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-meta">2025</div>
+      <div class="entry-body">
+        <p class="entry-title">Runner-up, Extraordinary Engineering Doctoral Award</p>
+        <p class="entry-detail">University of Vigo</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-meta">2021</div>
+      <div class="entry-body">
+        <p class="entry-title">Recognition for Young Researchers of the School of Industrial Engineering</p>
+        <p class="entry-detail">University of Vigo</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-meta">2020</div>
+      <div class="entry-body">
+        <p class="entry-title">Academic Excellence Award for students beginning doctoral studies</p>
+        <p class="entry-detail">2020/2021 academic year &middot; University of Vigo</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="subsection-label">Undergraduate</p>
+  <div class="entry-list">
+    <div class="entry">
+      <div class="entry-meta">2025</div>
+      <div class="entry-body">
+        <p class="entry-title">Second Runner-up, National Awards for University Education Graduates</p>
+        <p class="entry-detail">2018&ndash;2019 academic year &middot; Ministry of Science, Innovation, and Universities (Spain)</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-meta">2019</div>
+      <div class="entry-body">
+        <p class="entry-title">Extraordinary End-of-Degree Award</p>
+        <p class="entry-detail">University of Vigo</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-meta">2019</div>
+      <div class="entry-body">
+        <p class="entry-title">End-of-Degree Awards</p>
+        <p class="entry-detail">Xunta de Galicia</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="entry-meta">2018</div>
+      <div class="entry-body">
+        <p class="entry-title">Academic Excellence Award for the best grades in the Galician University System</p>
+        <p class="entry-detail">2017/2018 academic year &middot; Regional Government of Galicia (Spain)</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 ## Publications {#publications}
