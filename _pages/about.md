@@ -35,7 +35,7 @@ I'm currently an Acting Assistant Professor in the Department of Mechanical Engi
   <div class="entry">
     <div class="entry-meta">Jul 2024 &ndash; Jan 2025</div>
     <div class="entry-body">
-      <p class="entry-title">Postdoctoral Researcher, Mechanical Engineering &mdash; Thermal Engines and Fluids</p>
+      <p class="entry-title">Postdoctoral Researcher, Mechanical Engineering, Thermal Engines &amp; Fluids</p>
       <p class="entry-detail">University of Vigo &middot; Vigo, Spain</p>
       <p class="entry-detail">PI: Jacobo Porteiro</p>
     </div>
@@ -43,7 +43,7 @@ I'm currently an Acting Assistant Professor in the Department of Mechanical Engi
   <div class="entry">
     <div class="entry-meta">Oct 2020 &ndash; Jul 2024</div>
     <div class="entry-body">
-      <p class="entry-title">Ph.D. Student, Mechanical Engineering &mdash; Thermal Engines and Fluids</p>
+      <p class="entry-title">Ph.D. Student, Mechanical Engineering, Thermal Engines &amp; Fluids</p>
       <p class="entry-detail">University of Vigo &middot; Vigo, Spain</p>
       <p class="entry-detail">Advisor: Jacobo Porteiro</p>
     </div>
@@ -51,7 +51,7 @@ I'm currently an Acting Assistant Professor in the Department of Mechanical Engi
   <div class="entry">
     <div class="entry-meta">Sep 2019 &ndash; Oct 2020</div>
     <div class="entry-body">
-      <p class="entry-title">Junior Researcher, Mechanical Engineering &mdash; Thermal Engines and Fluids</p>
+      <p class="entry-title">Junior Researcher, Mechanical Engineering, Thermal Engines &amp; Fluids</p>
       <p class="entry-detail">University of Vigo &middot; Vigo, Spain</p>
       <p class="entry-detail">Advisor: David Patiño</p>
     </div>
@@ -59,7 +59,7 @@ I'm currently an Acting Assistant Professor in the Department of Mechanical Engi
   <div class="entry">
     <div class="entry-meta">Jan 2019 &ndash; Jun 2019</div>
     <div class="entry-body">
-      <p class="entry-title">Junior Researcher, Energy and Process Engineering and Fluids</p>
+      <p class="entry-title">Junior Researcher, Energy, Process Engineering &amp; Fluids</p>
       <p class="entry-detail">Norwegian University of Science and Technology &middot; Trondheim, Norway</p>
       <p class="entry-detail">Advisor: Armin Hafner</p>
     </div>
