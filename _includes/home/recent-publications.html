@@ -1,0 +1,52 @@
+{% include base_path %}
+{% comment %}
+  The 10 most recent entries in _publications, newest first. Authors are taken
+  from the citation (everything before the title), with Ana's name in bold.
+{% endcomment %}
+{% assign recent_pubs = site.publications | sort: "date" | reverse %}
+<div class="section-card">
+  <p class="subsection-label">Recent publications</p>
+  <div class="entry-list">
+    {% for post in recent_pubs limit: 10 %}
+      {% assign authors = "" %}
+      {% if post.citation and post.citation contains post.title %}
+        {% assign authors = post.citation | split: post.title | first | strip | replace: 'Ana Larrañaga', '<strong>Ana Larrañaga</strong>' | replace: 'A. Larrañaga', '<strong>A. Larrañaga</strong>' | replace: '</strong> Janeiro', ' Janeiro</strong>' | replace: '</strong>-Janeiro', '-Janeiro</strong>' %}
+      {% endif %}
+      <div class="entry">
+        <div class="entry-meta">{{ post.date | date: "%Y" }}</div>
+        <div class="entry-body">
+          {% comment %} Opens the details popup; without JavaScript it falls back to the paper's own page {% endcomment %}
+          <p class="entry-title">
+            <a href="{{ base_path }}{{ post.url }}" data-dialog="pub-{{ forloop.index }}">{{ post.title }}</a>
+          </p>
+          {% if authors != "" %}<p class="entry-detail">{{ authors }}</p>{% endif %}
+          <p class="entry-detail"><em>{{ post.venue }}</em></p>
+        </div>
+      </div>
+
+      <dialog class="pub-dialog" id="pub-{{ forloop.index }}" aria-labelledby="pub-{{ forloop.index }}-title">
+        <div class="pub-dialog__body">
+          <button type="button" class="pub-dialog__close" aria-label="Close">&times;</button>
+          <p class="pub-dialog__meta">{{ post.venue }} &middot; {{ post.date | date: "%Y" }}</p>
+          <h3 class="pub-dialog__title" id="pub-{{ forloop.index }}-title">{{ post.title }}</h3>
+          {% if authors != "" %}<p class="pub-dialog__authors">{{ authors }}</p>{% endif %}
+          {% assign abstract = post.content | strip %}
+          {% if abstract != "" %}
+            <p class="pub-dialog__label">Abstract</p>
+            <div class="pub-dialog__abstract">{{ abstract }}</div>
+          {% endif %}
+          {% if post.citation %}
+            <p class="pub-dialog__label">Citation</p>
+            <p class="pub-dialog__citation">{{ post.citation }}</p>
+          {% endif %}
+          {% if post.paperurl %}
+            <p class="pub-dialog__links"><a href="{{ post.paperurl }}">Read the paper →</a></p>
+          {% endif %}
+        </div>
+      </dialog>
+    {% endfor %}
+  </div>
+  {% if site.author.googlescholar %}
+    <p class="scholar-link"><a href="{{ site.author.googlescholar }}">See full profile on Google Scholar →</a></p>
+  {% endif %}
+</div>
